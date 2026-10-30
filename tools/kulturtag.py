@@ -172,7 +172,7 @@ def abrufen(start, ende, sichtbar=False):
     js = EXTRACTORS.read_text(encoding="utf-8")
     roh, gelesen, offen, je_quelle = [], [], [], {}
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=not sichtbar)
+        browser = p.chromium.launch(headless=not sichtbar, args=["--disable-http2"])  # manche Server (z. B. graff.de) brechen HTTP/2 von Rechenzentren ab
         ctx = browser.new_context(locale="de-DE", bypass_csp=True, user_agent=(
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
             "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"))
@@ -187,9 +187,17 @@ def abrufen(start, ende, sichtbar=False):
                                     [q["id"], {"start": start, "end": ende}])
                 page.goto(url, wait_until="domcontentloaded", timeout=60000)
                 page.wait_for_timeout(2500)
-                page.add_script_tag(content=js)
-                daten = page.evaluate("async ([id,a]) => await KULTURTAG_QUELLEN.find(q=>q.id===id).extract(a)",
-                                      [q["id"], {"start": start, "end": ende}])
+                for versuch in range(3):  # Seiten, die nach dem Laden noch umleiten (z. B. Das KULT): kurz warten, nochmal
+                    try:
+                        page.add_script_tag(content=js)
+                        daten = page.evaluate("async ([id,a]) => await KULTURTAG_QUELLEN.find(q=>q.id===id).extract(a)",
+                                              [q["id"], {"start": start, "end": ende}])
+                        break
+                    except Exception as ex:
+                        if versuch == 2 or "context was destroyed" not in str(ex):
+                            raise
+                        page.wait_for_load_state("load", timeout=30000)
+                        page.wait_for_timeout(3000)
                 roh += daten
                 je_quelle[q["id"]] = (q["name"], daten)
                 gelesen.append(f'{q["name"]} ({len(daten)})')
