@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-30T15:30+01:00",
+ "stand": "2026-10-30T15:49+01:00",
  "zeitraum_bis": "2026-11-20",
  "gelesen": [
   "BIFF – Filmfestival: 201 Einträge",
@@ -10,7 +10,7 @@
   "HBK: 11 Einträge",
   "Initiative Jazz: 1 Einträge",
   "Kinos (filmstarts.de): 163 Einträge",
-  "Kulturkalender Schloss (Stand 30.10.): 20 Einträge (älterer Abruf)",
+  "Kulturkalender Schloss (PDF): 66 Einträge",
   "mvp.de: 63 Einträge",
   "Schön & Frölich: 5 Einträge",
   "Staatstheater: 42 Einträge",
@@ -21,5 +21,5 @@
  "offen": [
   "Buchhandlung Graff"
  ],
- "anzahl": 618
+ "anzahl": 620
 }
