@@ -1,6 +1,7 @@
-https://www.graff.de/veranstaltung: 200 5912 Zeichen, event-compact: 0
-https://www.graff.de/rss.xml: 200 5632 Zeichen, event-compact: 0
-https://www.graff.de/veranstaltung/rss.xml: 200 5633 Zeichen, event-compact: 0
-https://www.graff.de/sitemap.xml: 403 548 Zeichen, event-compact: 0
-graff playwright: 200 144 Zeichen, event-compact: 0, Titel: 403 Forbidden
-roter saal seite: 404, PDFs: []
+https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal/ -> 403 https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal/ PDFs: []
+https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal/index.html -> 404 https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal/index.html PDFs: []
+https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal.php -> 404 https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal.php PDFs: []
+https://www.braunschweig.de/roter-saal -> 200 https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal/roter_saal.php PDFs: ['/kultur/kulturelle_einrichtungen/roter-saal/Kulturkalender_3_2026_WEB.pdf']
+https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal/Kulturkalender_3_2026_WEB.pdf -> 200 2831643 Bytes application/pdf
+https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal/Kulturkalender_4_2026_WEB.pdf -> 404 72358 Bytes text/html; charset=UTF-8
+https://www.braunschweig.de/kultur/kulturelle_einrichtungen/roter-saal/Kulturkalender_1_2027_WEB.pdf -> 404 72356 Bytes text/html; charset=UTF-8
