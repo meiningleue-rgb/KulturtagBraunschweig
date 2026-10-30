@@ -1,0 +1,6 @@
+https://www.graff.de/veranstaltung: 200 5912 Zeichen, event-compact: 0
+https://www.graff.de/rss.xml: 200 5632 Zeichen, event-compact: 0
+https://www.graff.de/veranstaltung/rss.xml: 200 5633 Zeichen, event-compact: 0
+https://www.graff.de/sitemap.xml: 403 548 Zeichen, event-compact: 0
+graff playwright: 200 144 Zeichen, event-compact: 0, Titel: 403 Forbidden
+roter saal seite: 404, PDFs: []
