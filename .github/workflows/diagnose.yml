@@ -1,0 +1,24 @@
+name: Diagnose
+on:
+  push:
+    branches: [diagnose]
+    paths: ["diag/*.py", ".github/workflows/diagnose.yml"]
+permissions:
+  contents: write
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          sudo apt-get install -y poppler-utils >/dev/null
+          pip install playwright requests >/dev/null
+          python -m playwright install --with-deps chromium >/dev/null
+      - run: python diag/diag.py
+      - run: |
+          git config user.name kulturtag-bot
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diag/out && git commit -m "Diagnose-Ergebnis" && git push
