@@ -1,56 +1,31 @@
 [
 {
-"datum": "2026-10-29",
-"zeit": "19:45",
-"titel": "ASTOR MUSIK & KULTUR: OZZY AND BLACK SABBATH: BACK TO THE BEGINNING",
-"ort": "ASTOR Filmtheater Braunschweig, Lange Str. 60",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-29",
-"quelle": "filmstarts.de"
-},
-{
 "datum": "2026-10-30",
-"zeit": "14:10",
-"titel": "Frau Winkler verlässt das Haus",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-30",
-"zeit": "14:15",
-"titel": "Vaterland",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-30",
-"zeit": "14:30",
-"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
+"zeit": "17:00",
+"titel": "Klara und die Sonne",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
-"hinweis": "",
-"preis": "",
+"hinweis": "Vorstellungen: 17:00, 19:45",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-10-30",
-"zeit": "14:30",
-"titel": "Emil und die Detektive",
+"zeit": "17:45",
+"titel": "Other Mommy",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 17:45, 20:15, 22:50",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-30",
+"zeit": "17:45",
+"titel": "Biermann",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -61,29 +36,26 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-10-30",
-"zeit": "14:45",
-"titel": "Das gewisse Etwas",
+"zeit": "14:30",
+"titel": "Emil und die Detektive",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-10-30",
-"zeit": "14:45",
-"titel": "Monster Mia",
+"zeit": "14:30",
+"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -94,7 +66,26 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-30",
+"zeit": "14:45",
+"titel": "Das gewisse Etwas",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-30",
+"zeit": "14:45",
+"titel": "Monster Mia",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -105,7 +96,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 14:50, 17:10, 20:00, 20:30, 22:30",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -116,30 +106,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-30",
-"zeit": "16:00",
-"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 16:00, 18:30, 21:05",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-30",
-"zeit": "16:30",
-"titel": "Alte Liebe",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
 {
@@ -149,7 +116,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -160,18 +126,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 16:55, 19:45",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-30",
-"zeit": "17:00",
-"titel": "Klara und die Sonne",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 17:00, 19:45",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -182,7 +136,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -193,41 +146,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-30",
-"zeit": "17:45",
-"titel": "Biermann",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-30",
-"zeit": "17:45",
-"titel": "Other Mommy",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 17:45, 20:15, 22:50",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-30",
-"zeit": "18:50",
-"titel": "Die Blutgräfin",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 18:50, 21:10",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
 {
@@ -237,7 +156,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 20:00, 23:05",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -248,19 +166,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-30",
-"zeit": "20:30",
-"titel": "Scary Movie",
-"ort": "SchunterKino",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A2745/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
 {
@@ -270,7 +176,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -281,7 +186,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
 "quelle": "filmstarts.de"
 },
@@ -292,41 +196,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-30",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "11:00",
-"titel": "NAZA",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "11:15",
-"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 11:15, 15:30, 18:00, 20:30",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "12:10",
-"titel": "Paw Patrol: Der Dino Film",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
 {
@@ -336,7 +206,46 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "14:15",
+"titel": "Klara und die Sonne",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 14:15, 19:45",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "17:45",
+"titel": "Other Mommy",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 17:45, 20:15, 22:50",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "17:45",
+"titel": "Biermann",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "12:10",
+"titel": "Paw Patrol: Der Dino Film",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -347,7 +256,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -358,40 +266,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 12:30, 14:45",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "13:45",
-"titel": "Vaterland",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "14:10",
-"titel": "Frau Winkler verlässt das Haus",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "14:15",
-"titel": "Klara und die Sonne",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 14:15, 19:45",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -402,7 +276,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -413,7 +286,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -424,7 +296,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -435,7 +306,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 14:50, 16:50, 17:10, 20:00, 20:30, 22:30",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -446,29 +316,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "16:30",
-"titel": "Alte Liebe",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "17:00",
-"titel": "Die Odyssee",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -479,7 +326,16 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 17:00, 19:45",
-"preis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "17:00",
+"titel": "Die Odyssee",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -490,7 +346,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -501,41 +356,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "17:45",
-"titel": "Biermann",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "17:45",
-"titel": "Other Mommy",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 17:45, 20:15, 22:50",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "18:50",
-"titel": "Die Blutgräfin",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 18:50, 21:10",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
 {
@@ -545,7 +366,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 20:00, 23:05",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -556,7 +376,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
 "quelle": "filmstarts.de"
 },
@@ -567,85 +386,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "22:40",
-"titel": "Hope",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "23:00",
-"titel": "Queens Of The Dead",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "OmU",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-10-31",
-"zeit": "23:15",
-"titel": "Resident Evil",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-10-31",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "11:00",
-"titel": "Ritter Trenk",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "11:00",
-"titel": "Zillion",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Braunschweig International Film Festival · Öffentliche Vorführung · 2 h 18 min",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "11:15",
-"titel": "NAZA",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "12:10",
-"titel": "Paw Patrol: Der Dino Film",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
 "quelle": "filmstarts.de"
 },
 {
@@ -655,150 +396,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "12:15",
-"titel": "Minions & Monster",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "12:30",
-"titel": "Shaun das Schaf - Spuk im Kürbisfeld",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 12:30, 14:45",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "14:10",
-"titel": "Frau Winkler verlässt das Haus",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "14:15",
-"titel": "Vaterland",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "14:20",
-"titel": "Emil und die Detektive",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "14:30",
-"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "14:45",
-"titel": "Das gewisse Etwas",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "14:45",
-"titel": "Monster Mia",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "14:50",
-"titel": "Der perfekte Urlaub",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 14:50, 16:50, 17:10, 20:00, 20:30",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "15:00",
-"titel": "Coyote vs. ACME",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "16:00",
-"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 16:00, 18:30, 21:05",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "16:30",
-"titel": "Alte Liebe",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "17:00",
-"titel": "Die Odyssee",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
 "quelle": "filmstarts.de"
 },
@@ -809,29 +406,16 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-01",
-"zeit": "17:10",
-"titel": "Sinn und Sinnlichkeit",
+"zeit": "17:45",
+"titel": "Other Mommy",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "17:20",
-"titel": "Verity - Dunkle Geheimnisse",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 17:20, 19:45",
-"preis": "",
+"hinweis": "Vorstellungen: 17:45, 20:15",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
 "quelle": "filmstarts.de"
 },
@@ -842,30 +426,137 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 17:45, 19:45",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-01",
-"zeit": "17:45",
-"titel": "Other Mommy",
+"zeit": "11:00",
+"titel": "Ritter Trenk",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
-"hinweis": "Vorstellungen: 17:45, 20:15",
-"preis": "",
+"hinweis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-01",
-"zeit": "18:50",
-"titel": "Die Blutgräfin",
-"ort": "Universum Filmtheater",
+"zeit": "12:10",
+"titel": "Paw Patrol: Der Dino Film",
+"ort": "Astor Filmtheater",
 "sparte": "Kino",
-"hinweis": "Vorstellungen: 18:50, 21:10",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "12:15",
+"titel": "Minions & Monster",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "12:30",
+"titel": "Shaun das Schaf - Spuk im Kürbisfeld",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 12:30, 14:45",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "14:20",
+"titel": "Emil und die Detektive",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "14:30",
+"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "14:45",
+"titel": "Das gewisse Etwas",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "14:45",
+"titel": "Monster Mia",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "14:50",
+"titel": "Der perfekte Urlaub",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 14:50, 16:50, 17:10, 20:00, 20:30",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "15:00",
+"titel": "Coyote vs. ACME",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "17:00",
+"titel": "Die Odyssee",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "17:10",
+"titel": "Sinn und Sinnlichkeit",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "17:20",
+"titel": "Verity - Dunkle Geheimnisse",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 17:20, 19:45",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
 "quelle": "filmstarts.de"
 },
 {
@@ -875,7 +566,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
 "quelle": "filmstarts.de"
 },
@@ -886,62 +576,36 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-01",
-"zeit": "20:30",
-"titel": "Street Fighter",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-01",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-02",
-"zeit": "14:10",
-"titel": "Frau Winkler verlässt das Haus",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "14:15",
-"titel": "Vaterland",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "14:30",
-"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
+"zeit": "17:00",
+"titel": "Klara und die Sonne",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
-"hinweis": "",
-"preis": "",
+"hinweis": "Vorstellungen: 17:00, 19:45",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-02",
-"zeit": "14:30",
-"titel": "Emil und die Detektive",
+"zeit": "17:45",
+"titel": "Other Mommy",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 17:45, 20:15",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "17:45",
+"titel": "Biermann",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
@@ -952,7 +616,36 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "14:30",
+"titel": "Emil und die Detektive",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "14:30",
+"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "14:45",
+"titel": "Shaun das Schaf - Spuk im Kürbisfeld",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
@@ -963,7 +656,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
@@ -974,18 +666,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "14:45",
-"titel": "Shaun das Schaf - Spuk im Kürbisfeld",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
@@ -996,7 +676,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 14:50, 17:10, 20:00, 20:15",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
@@ -1007,30 +686,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "16:00",
-"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 16:00, 21:05",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "16:30",
-"titel": "Alte Liebe",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
 {
@@ -1040,7 +696,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
@@ -1051,18 +706,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 16:55, 19:45",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "17:00",
-"titel": "Klara und die Sonne",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 17:00, 19:45",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
@@ -1073,7 +716,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
@@ -1084,52 +726,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "17:45",
-"titel": "Biermann",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "17:45",
-"titel": "Other Mommy",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 17:45, 20:15",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "18:50",
-"titel": "Die Blutgräfin",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 18:50, 21:10",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "19:00",
-"titel": "Salz und Wasser - Mit der legendären Polarstern in die Antarktis",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
 {
@@ -1139,7 +736,16 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "20:30",
+"titel": "Street Fighter",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
 "quelle": "filmstarts.de"
 },
@@ -1150,129 +756,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-02",
-"zeit": "20:30",
-"titel": "Street Fighter",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-02",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "14:10",
-"titel": "Frau Winkler verlässt das Haus",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "14:15",
-"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "14:15",
-"titel": "Emil und die Detektive",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "14:15",
-"titel": "Vaterland",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "14:50",
-"titel": "Der perfekte Urlaub",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 14:50, 17:30, 20:15",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "15:15",
-"titel": "Shaun das Schaf - Spuk im Kürbisfeld",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "16:00",
-"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 16:00, 18:30, 21:05",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "16:30",
-"titel": "Alte Liebe",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "16:30",
-"titel": "Verity - Dunkle Geheimnisse",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 16:30, 20:30",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "16:45",
-"titel": "Die Odyssee",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
 "quelle": "filmstarts.de"
 },
 {
@@ -1282,40 +766,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 17:00, 19:45",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "17:15",
-"titel": "Sinn und Sinnlichkeit",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "17:30",
-"titel": "Eiserne Wildnis - Heart Of The Beast",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "17:45",
-"titel": "Biermann",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
 "quelle": "filmstarts.de"
 },
@@ -1326,40 +776,16 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 17:45, 20:30",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-03",
-"zeit": "18:50",
-"titel": "Die Blutgräfin",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 18:50, 21:10",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "20:00",
-"titel": "Clayface",
+"zeit": "17:45",
+"titel": "Biermann",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-03",
-"zeit": "20:15",
-"titel": "Whalefall",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
 "quelle": "filmstarts.de"
 },
@@ -1370,106 +796,116 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
 "quelle": "filmstarts.de"
 },
 {
-"datum": "2026-11-04",
-"zeit": "14:10",
-"titel": "Frau Winkler verlässt das Haus",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
+"datum": "2026-11-03",
 "zeit": "14:15",
-"titel": "Vaterland",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
-"zeit": "14:30",
-"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
-"zeit": "14:30",
 "titel": "Emil und die Detektive",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
 "quelle": "filmstarts.de"
 },
 {
-"datum": "2026-11-04",
+"datum": "2026-11-03",
+"zeit": "14:15",
+"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
 "zeit": "14:50",
 "titel": "Der perfekte Urlaub",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 14:50, 17:30, 20:15",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
 "quelle": "filmstarts.de"
 },
 {
-"datum": "2026-11-04",
+"datum": "2026-11-03",
 "zeit": "15:15",
 "titel": "Shaun das Schaf - Spuk im Kürbisfeld",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
 "quelle": "filmstarts.de"
 },
 {
-"datum": "2026-11-04",
-"zeit": "16:00",
-"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 16:00, 21:05",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
+"datum": "2026-11-03",
 "zeit": "16:30",
-"titel": "Alte Liebe",
-"ort": "Universum Filmtheater",
+"titel": "Verity - Dunkle Geheimnisse",
+"ort": "Astor Filmtheater",
 "sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"hinweis": "Vorstellungen: 16:30, 20:30",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
 "quelle": "filmstarts.de"
 },
 {
-"datum": "2026-11-04",
+"datum": "2026-11-03",
 "zeit": "16:45",
 "titel": "Die Odyssee",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
+"zeit": "17:15",
+"titel": "Sinn und Sinnlichkeit",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
+"zeit": "17:30",
+"titel": "Eiserne Wildnis - Heart Of The Beast",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
+"zeit": "20:00",
+"titel": "Clayface",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
+"zeit": "20:15",
+"titel": "Whalefall",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "20:00",
+"titel": "Ein Talent fürs Morden",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
 "quelle": "filmstarts.de"
 },
@@ -1480,51 +916,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 17:00, 19:45",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
-"zeit": "17:00",
-"titel": "Verity - Dunkle Geheimnisse",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "Vorstellungen: 17:00, 19:45",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
-"zeit": "17:15",
-"titel": "Sinn und Sinnlichkeit",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
-"zeit": "17:30",
-"titel": "Eiserne Wildnis - Heart Of The Beast",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
-"zeit": "17:45",
-"titel": "Biermann",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
 "quelle": "filmstarts.de"
 },
@@ -1535,40 +926,106 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 17:45, 20:30",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-04",
-"zeit": "19:00",
-"titel": "NAZA",
-"ort": "Universum Filmtheater",
+"zeit": "17:45",
+"titel": "Biermann",
+"ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-04",
-"zeit": "19:00",
-"titel": "Skiff",
-"ort": "Universum Filmtheater",
+"zeit": "20:30",
+"titel": "Rammstein - Live in Mexico City",
+"ort": "Astor Filmtheater",
 "sparte": "Kino",
-"hinweis": "OmU",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-04",
-"zeit": "20:00",
-"titel": "BZ FILMPREMIERE: EIN TALENT FÜRS MORDEN",
-"ort": "ASTOR Filmtheater Braunschweig, Lange Str. 60",
+"zeit": "14:30",
+"titel": "Emil und die Detektive",
+"ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "14:30",
+"titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "14:50",
+"titel": "Der perfekte Urlaub",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 14:50, 17:30, 20:15",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "15:15",
+"titel": "Shaun das Schaf - Spuk im Kürbisfeld",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "16:45",
+"titel": "Die Odyssee",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "17:00",
+"titel": "Verity - Dunkle Geheimnisse",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 17:00, 19:45",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "17:15",
+"titel": "Sinn und Sinnlichkeit",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "17:30",
+"titel": "Eiserne Wildnis - Heart Of The Beast",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
 "quelle": "filmstarts.de"
 },
@@ -1579,18 +1036,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
-"zeit": "20:30",
-"titel": "Rammstein - Live in Mexico City",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
 "quelle": "filmstarts.de"
 },
@@ -1601,19 +1046,7 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-04",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-04",
-"zeit": "21:10",
-"titel": "Die Blutgräfin",
-"ort": "Universum Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
 "quelle": "filmstarts.de"
 },
 {
@@ -1623,63 +1056,37 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "OV",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-05",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-06",
-"zeit": "17:30",
-"titel": "Milkaus Filmcafé: Sinn und Sinnlichkeit",
-"ort": "Astor Filmtheater, Lange Str. 60",
+"zeit": "19:30",
+"titel": "Ramayana: Rise Of A Legend",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "OV",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-06",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-06",
+"zeit": "20:15",
+"titel": "Rammstein - Live in Mexico City",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-06",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-06",
+"zeit": "15:00",
+"titel": "Sinn und Sinnlichkeit",
+"ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 15:00, 17:30",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-06",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-06",
-"zeit": "19:30",
-"titel": "Ramayana: Rise Of A Legend",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "OV",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-06",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-06",
-"zeit": "20:15",
-"titel": "Rammstein - Live in Mexico City",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-06",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-07",
-"zeit": "11:45",
-"titel": "Der Herr der Ringe - Die Rückkehr des Königs",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-07",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-07",
-"zeit": "12:15",
-"titel": "Die Tribute von Panem 4 - Mockingjay Teil 2",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-07",
 "quelle": "filmstarts.de"
 },
 {
@@ -1689,7 +1096,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "OV",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-07",
 "quelle": "filmstarts.de"
 },
@@ -1700,40 +1106,66 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-07",
 "quelle": "filmstarts.de"
 },
 {
-"datum": "2026-11-08",
+"datum": "2026-11-07",
 "zeit": "11:45",
 "titel": "Der Herr der Ringe - Die Rückkehr des Königs",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-08",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-07",
 "quelle": "filmstarts.de"
 },
 {
-"datum": "2026-11-08",
+"datum": "2026-11-07",
 "zeit": "12:15",
 "titel": "Die Tribute von Panem 4 - Mockingjay Teil 2",
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-08",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-07",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-08",
 "zeit": "14:30",
-"titel": "SUPER KIDS CLUB PREVIEW: DER REGENBOGENFISCH",
-"ort": "ASTOR Filmtheater Braunschweig, Lange Str. 60",
-"sparte": "Kinder & Familie",
+"titel": "Der Regenbogenfisch",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
 "hinweis": "",
-"preis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-08",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-08",
+"zeit": "19:30",
+"titel": "Ramayana: Rise Of A Legend",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-08",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-08",
+"zeit": "11:45",
+"titel": "Der Herr der Ringe - Die Rückkehr des Königs",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-08",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-08",
+"zeit": "12:15",
+"titel": "Die Tribute von Panem 4 - Mockingjay Teil 2",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-08",
 "quelle": "filmstarts.de"
 },
@@ -1744,41 +1176,17 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-08",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-08",
-"zeit": "19:30",
-"titel": "Ramayana: Rise Of A Legend",
-"ort": "Astor Filmtheater",
-"sparte": "Kino",
-"hinweis": "",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-08",
 "quelle": "filmstarts.de"
 },
 {
 "datum": "2026-11-17",
 "zeit": "20:00",
-"titel": "BZ FILMPREMIERE: LIEBLINGSMENSCHEN (in Anwesenheit von Katharina Thalbach)",
-"ort": "ASTOR Filmtheater Braunschweig, Lange Str. 60",
+"titel": "Lieblingsmenschen - Die außergewöhnliche Freundschaft von Agnes und Amir",
+"ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "Vorstellungen: 20:00, 20:30",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-17",
-"quelle": "filmstarts.de"
-},
-{
-"datum": "2026-11-17",
-"zeit": "20:30",
-"titel": "Das Drama - Noch mal auf Anfang",
-"ort": "SchunterKino",
-"sparte": "Kino",
-"hinweis": "OV",
-"preis": "",
-"url": "https://www.filmstarts.de/kinoprogramm/kino/A2745/#shwt_date=2026-11-17",
 "quelle": "filmstarts.de"
 },
 {
@@ -1788,7 +1196,6 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "OV · Vorstellungen: 20:00, 20:15",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-18",
 "quelle": "filmstarts.de"
 },
@@ -1799,8 +1206,427 @@
 "ort": "Astor Filmtheater",
 "sparte": "Kino",
 "hinweis": "OV · Vorstellungen: 16:30, 19:45, 20:00",
-"preis": "",
 "url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-19",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-20",
+"zeit": "16:30",
+"titel": "Die Tribute von Panem - Sunrise On The Reaping",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "OV · Vorstellungen: 16:30, 19:45, 20:00",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-20",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-20",
+"zeit": "15:00",
+"titel": "Alte Liebe",
+"ort": "Astor Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 15:00, 17:30",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A0284/#shwt_date=2026-11-20",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-30",
+"zeit": "18:50",
+"titel": "Die Blutgräfin",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 18:50, 21:10",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-30",
+"zeit": "14:10",
+"titel": "Frau Winkler verlässt das Haus",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-30",
+"zeit": "14:15",
+"titel": "Vaterland",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-30",
+"zeit": "16:00",
+"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 16:00, 18:30, 21:05",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-30",
+"zeit": "16:30",
+"titel": "Alte Liebe",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-30",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "18:50",
+"titel": "Die Blutgräfin",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 18:50, 21:10",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "23:00",
+"titel": "Queens Of The Dead",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "OmU",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "11:00",
+"titel": "NAZA",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "11:15",
+"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 11:15, 15:30, 18:00, 20:30",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "13:45",
+"titel": "Vaterland",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "14:10",
+"titel": "Frau Winkler verlässt das Haus",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-31",
+"zeit": "16:30",
+"titel": "Alte Liebe",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-10-31",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "18:50",
+"titel": "Die Blutgräfin",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 18:50, 21:10",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "11:00",
+"titel": "Zillion",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "11:15",
+"titel": "NAZA",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "14:10",
+"titel": "Frau Winkler verlässt das Haus",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "14:15",
+"titel": "Vaterland",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "16:00",
+"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 16:00, 18:30, 21:05",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-01",
+"zeit": "16:30",
+"titel": "Alte Liebe",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-01",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "18:50",
+"titel": "Die Blutgräfin",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 18:50, 21:10",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "14:10",
+"titel": "Frau Winkler verlässt das Haus",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "14:15",
+"titel": "Vaterland",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "16:00",
+"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 16:00, 21:05",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "16:30",
+"titel": "Alte Liebe",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-02",
+"zeit": "19:00",
+"titel": "Salz und Wasser - Mit der legendären Polarstern in die Antarktis",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-02",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
+"zeit": "18:50",
+"titel": "Die Blutgräfin",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 18:50, 21:10",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
+"zeit": "14:10",
+"titel": "Frau Winkler verlässt das Haus",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
+"zeit": "14:15",
+"titel": "Vaterland",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
+"zeit": "16:00",
+"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 16:00, 18:30, 21:05",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-03",
+"zeit": "16:30",
+"titel": "Alte Liebe",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-03",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "21:10",
+"titel": "Die Blutgräfin",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "14:10",
+"titel": "Frau Winkler verlässt das Haus",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "14:15",
+"titel": "Vaterland",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "16:00",
+"titel": "Heimsuchung - Eine Jahrhundertgeschichte",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "Vorstellungen: 16:00, 21:05",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "16:30",
+"titel": "Alte Liebe",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "19:00",
+"titel": "NAZA",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-04",
+"zeit": "19:00",
+"titel": "Skiff",
+"ort": "Universum Filmtheater",
+"sparte": "Kino",
+"hinweis": "OmU",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A1240/#shwt_date=2026-11-04",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-10-30",
+"zeit": "20:30",
+"titel": "Scary Movie",
+"ort": "SchunterKino",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A2745/#shwt_date=2026-10-30",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-06",
+"zeit": "20:30",
+"titel": "Film Program",
+"ort": "SchunterKino",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A2745/#shwt_date=2026-11-06",
+"quelle": "filmstarts.de"
+},
+{
+"datum": "2026-11-17",
+"zeit": "20:30",
+"titel": "Das Drama - Noch mal auf Anfang",
+"ort": "SchunterKino",
+"sparte": "Kino",
+"hinweis": "",
+"url": "https://www.filmstarts.de/kinoprogramm/kino/A2745/#shwt_date=2026-11-17",
 "quelle": "filmstarts.de"
 }
 ]

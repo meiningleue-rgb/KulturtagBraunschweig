@@ -1,23 +1,26 @@
 {
- "stand": "2026-10-30T15:02+01:00",
+ "stand": "2026-10-30T15:18+01:00",
  "zeitraum_bis": "2026-11-20",
  "gelesen": [
-  "BIFF – Filmfestival: 200 Einträge (älterer Abruf)",
-  "Brunsviga: 16 Einträge (älterer Abruf)",
+  "BIFF – Filmfestival: 201 Einträge",
+  "Brunsviga: 18 Einträge",
   "Das KULT: 16 Einträge (älterer Abruf)",
   "Buchhandlung Graff: 4 Einträge (älterer Abruf)",
-  "Haus der Wissenschaft: 13 Einträge (älterer Abruf)",
-  "HBK: 11 Einträge (älterer Abruf)",
-  "Initiative Jazz: 2 Einträge (älterer Abruf)",
-  "Kinos (filmstarts.de): 164 Einträge (älterer Abruf)",
+  "Haus der Wissenschaft: 17 Einträge",
+  "HBK: 11 Einträge",
+  "Initiative Jazz: 1 Einträge",
+  "Kinos (filmstarts.de): 163 Einträge",
   "Kulturkalender Schloss (Stand 30.10.): 20 Einträge (älterer Abruf)",
-  "mvp.de: 52 Einträge (älterer Abruf)",
-  "Schön & Frölich: 5 Einträge (älterer Abruf)",
-  "Staatstheater: 38 Einträge (älterer Abruf)",
-  "Stadtkalender: 131 Einträge (älterer Abruf)",
-  "TU Braunschweig: 28 Einträge (älterer Abruf)",
-  "westand: 8 Einträge (älterer Abruf)"
+  "mvp.de: 63 Einträge",
+  "Schön & Frölich: 5 Einträge",
+  "Staatstheater: 42 Einträge",
+  "Stadtkalender: 196 Einträge",
+  "TU Braunschweig: 30 Einträge",
+  "westand: 9 Einträge"
  ],
- "offen": [],
- "anzahl": 578
+ "offen": [
+  "Das KULT",
+  "Buchhandlung Graff"
+ ],
+ "anzahl": 619
 }

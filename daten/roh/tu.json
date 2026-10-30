@@ -1,45 +1,11 @@
 [
 {
-"datum": "2026-10-29",
-"zeit": "15:00",
-"titel": "Species-genetic diversity correlations in an urban landscape",
-"ort": "Hörsaal LK 19c.2",
-"sparte": "Wissenschaft & Vortrag",
-"hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=85212",
-"quelle": "TU-Kalender"
-},
-{
-"datum": "2026-10-29",
-"zeit": "18:30",
-"titel": "Die sozialen Einrichtungen der Firma Büssing",
-"ort": "Institut für Braunschweigische Regionalgeschichte",
-"sparte": "Wissenschaft & Vortrag",
-"hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=85762",
-"quelle": "TU-Kalender"
-},
-{
-"datum": "2026-10-29",
-"zeit": "18:30",
-"titel": "Wie KI unsere Arbeit verändert",
-"ort": "Haus der Wissenschaft, Raum Weitblick",
-"sparte": "Wissenschaft & Vortrag",
-"hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=85262",
-"quelle": "TU-Kalender"
-},
-{
 "datum": "2026-11-02",
 "zeit": "19:00",
 "titel": "TUmorrow Nights: Salz und Wasser",
 "ort": "Universum Filmtheater Braunschweig, Neue Straße 8, 38100 Braunschweig",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=85371",
 "quelle": "TU-Kalender"
 },
@@ -50,7 +16,6 @@
 "ort": "Hörsaal PK 11.1, Haus der Wissenschaft",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=84281",
 "quelle": "TU-Kalender"
 },
@@ -61,41 +26,7 @@
 "ort": "Aquarium (im Kleinen Haus), Magnitorwall 18, 38100 Braunschweig",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=85353",
-"quelle": "TU-Kalender"
-},
-{
-"datum": "2026-11-04",
-"zeit": "17:00",
-"titel": "Antrittsvorlesung von Prof. Dr. Andriy Goychuk",
-"ort": "Aula, Haus der Wissenschaft",
-"sparte": "Wissenschaft & Vortrag",
-"hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=84397",
-"quelle": "TU-Kalender"
-},
-{
-"datum": "2026-11-04",
-"zeit": "17:00",
-"titel": "Gender Planning in Stuttgart – gendersensible und intersektionale Stadtplanung",
-"ort": "Seminarraum PK 4.117, Altgebäude",
-"sparte": "Wissenschaft & Vortrag",
-"hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=85396",
-"quelle": "TU-Kalender"
-},
-{
-"datum": "2026-11-04",
-"zeit": "18:30",
-"titel": "Der Beginn der extraterrestrischen Physik. Die Regener-Tonne als erste wissenschaftliche Nutzlast im Kontext nationalsozialistischer Militärinteressen",
-"ort": "Hörsaal SN 19.2, Altgebäude",
-"sparte": "Wissenschaft & Vortrag",
-"hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=85192",
 "quelle": "TU-Kalender"
 },
 {
@@ -105,8 +36,37 @@
 "ort": "Raum BW 74.326",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=83675",
+"quelle": "TU-Kalender"
+},
+{
+"datum": "2026-11-04",
+"zeit": "17:00",
+"titel": "Antrittsvorlesung von Prof. Dr. Andriy Goychuk",
+"ort": "Aula, Haus der Wissenschaft",
+"sparte": "Wissenschaft & Vortrag",
+"hinweis": "",
+"url": "https://magazin.tu-braunschweig.de/?p=84397",
+"quelle": "TU-Kalender"
+},
+{
+"datum": "2026-11-04",
+"zeit": "18:30",
+"titel": "Der Beginn der extraterrestrischen Physik. Die Regener-Tonne als erste wissenschaftliche Nutzlast im Kontext nationalsozialistischer Militärinteressen",
+"ort": "Hörsaal SN 19.2, Altgebäude",
+"sparte": "Wissenschaft & Vortrag",
+"hinweis": "",
+"url": "https://magazin.tu-braunschweig.de/?p=85192",
+"quelle": "TU-Kalender"
+},
+{
+"datum": "2026-11-04",
+"zeit": "17:00",
+"titel": "Gender Planning in Stuttgart – gendersensible und intersektionale Stadtplanung",
+"ort": "Seminarraum PK 4.117, Altgebäude",
+"sparte": "Wissenschaft & Vortrag",
+"hinweis": "",
+"url": "https://magazin.tu-braunschweig.de/?p=85396",
 "quelle": "TU-Kalender"
 },
 {
@@ -116,7 +76,6 @@
 "ort": "Audimax",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=84423",
 "quelle": "TU-Kalender"
 },
@@ -127,7 +86,6 @@
 "ort": "Hörsaal BI 84.2, Campus Nord",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=84062",
 "quelle": "TU-Kalender"
 },
@@ -138,7 +96,6 @@
 "ort": "Hörsaal HR 30.1, Chemiezentrum",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=85413",
 "quelle": "TU-Kalender"
 },
@@ -149,19 +106,7 @@
 "ort": "Hörsaal PK 11.1, Haus der Wissenschaft",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=84284",
-"quelle": "TU-Kalender"
-},
-{
-"datum": "2026-11-11",
-"zeit": "13:15",
-"titel": "Schunterrenaturierung Querum – Borwall bis Bienroder Weg",
-"ort": "Hörsaal BI 84.1, Campus Nord",
-"sparte": "Wissenschaft & Vortrag",
-"hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=85508",
 "quelle": "TU-Kalender"
 },
 {
@@ -171,8 +116,17 @@
 "ort": "Hörsaal SN 19.2, Altgebäude",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=85193",
+"quelle": "TU-Kalender"
+},
+{
+"datum": "2026-11-11",
+"zeit": "13:15",
+"titel": "Schunterrenaturierung Querum – Borwall bis Bienroder Weg",
+"ort": "Hörsaal BI 84.1, Campus Nord",
+"sparte": "Wissenschaft & Vortrag",
+"hinweis": "",
+"url": "https://magazin.tu-braunschweig.de/?p=85508",
 "quelle": "TU-Kalender"
 },
 {
@@ -182,7 +136,6 @@
 "ort": "International House, BW74.003, Bültenweg 74",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=84948",
 "quelle": "TU-Kalender"
 },
@@ -193,7 +146,6 @@
 "ort": "Institut für Braunschweigische Regionalgeschichte",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=85763",
 "quelle": "TU-Kalender"
 },
@@ -204,30 +156,27 @@
 "ort": "Audimax",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=84427",
 "quelle": "TU-Kalender"
 },
 {
 "datum": "2026-11-17",
-"zeit": "18:00",
-"titel": "Lesung und Gespräch „Das konkrete Leben“",
-"ort": "Cafe Riptide, Ölschlägern 14, 38100 Braunschweig",
+"zeit": "10:00",
+"titel": "Lehrexperimente mit Feedback – aktiv (2)",
+"ort": "Lehrstudio / Seminarraum PK 4.111, Altgebäude",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=84758",
+"url": "https://magazin.tu-braunschweig.de/?p=82529",
 "quelle": "TU-Kalender"
 },
 {
 "datum": "2026-11-17",
-"zeit": "18:30",
-"titel": "Architekturpositionen: Henning Meyer",
-"ort": "Hörsaal PK 4.3, Altgebäude",
+"zeit": "10:00",
+"titel": "Lehrexperimente mit Feedback – passiv (2)",
+"ort": "Lehrstudio / Seminarraum PK 4.111, Altgebäude",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=85790",
+"url": "https://magazin.tu-braunschweig.de/?p=82530",
 "quelle": "TU-Kalender"
 },
 {
@@ -237,19 +186,47 @@
 "ort": "Hörsaal PK 11.1, Haus der Wissenschaft",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=84287",
 "quelle": "TU-Kalender"
 },
 {
-"datum": "2026-11-18",
-"zeit": "13:15",
-"titel": "Abwasserreinigung mittels Festbettreaktoren",
-"ort": "Hörsaal BI 84.1, Campus Nord",
+"datum": "2026-11-17",
+"zeit": "18:00",
+"titel": "Lesung und Gespräch „Das konkrete Leben“",
+"ort": "Cafe Riptide, Ölschlägern 14, 38100 Braunschweig",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=85509",
+"url": "https://magazin.tu-braunschweig.de/?p=84758",
+"quelle": "TU-Kalender"
+},
+{
+"datum": "2026-11-17",
+"zeit": "08:30",
+"titel": "Fit für das Vorstellungsgespräch in Deutschland",
+"ort": "International House, Raum 214, 2. OG, Bültenweg 74, Braunschweig",
+"sparte": "Wissenschaft & Vortrag",
+"hinweis": "",
+"url": "https://magazin.tu-braunschweig.de/?p=84954",
+"quelle": "TU-Kalender"
+},
+{
+"datum": "2026-11-17",
+"zeit": "09:00",
+"titel": "Zwischen Routine und Sinn: Job Crafting – Gestaltungsspielraum für erfüllteres und erfolgreiches Arbeiten",
+"ort": "Haus der Wissenschaft, Raum Weitblick",
+"sparte": "Wissenschaft & Vortrag",
+"hinweis": "",
+"url": "https://magazin.tu-braunschweig.de/?p=85393",
+"quelle": "TU-Kalender"
+},
+{
+"datum": "2026-11-17",
+"zeit": "18:30",
+"titel": "Architekturpositionen: Henning Meyer",
+"ort": "Hörsaal PK 4.3, Altgebäude",
+"sparte": "Wissenschaft & Vortrag",
+"hinweis": "",
+"url": "https://magazin.tu-braunschweig.de/?p=85790",
 "quelle": "TU-Kalender"
 },
 {
@@ -259,8 +236,17 @@
 "ort": "Hörsaal PK 4.3, Altgebäude",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=84548",
+"quelle": "TU-Kalender"
+},
+{
+"datum": "2026-11-18",
+"zeit": "15:00",
+"titel": "Langer Abend der Studienberatung",
+"ort": "Haus der Wissenschaft",
+"sparte": "Wissenschaft & Vortrag",
+"hinweis": "",
+"url": "https://magazin.tu-braunschweig.de/?p=85179",
 "quelle": "TU-Kalender"
 },
 {
@@ -270,19 +256,17 @@
 "ort": "Hörsaal SN 19.2, Altgebäude",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=85194",
 "quelle": "TU-Kalender"
 },
 {
-"datum": "2026-11-19",
-"zeit": "15:00",
-"titel": "Quantifizierung des Austauschs von Kohlendioxid und Wasserdampf zwischen der Atmosphäre und einem naturnahen Laubwald",
-"ort": "Hörsaal LK 19c.2",
+"datum": "2026-11-18",
+"zeit": "13:15",
+"titel": "Abwasserreinigung mittels Festbettreaktoren",
+"ort": "Hörsaal BI 84.1, Campus Nord",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
-"url": "https://magazin.tu-braunschweig.de/?p=85218",
+"url": "https://magazin.tu-braunschweig.de/?p=85509",
 "quelle": "TU-Kalender"
 },
 {
@@ -292,8 +276,17 @@
 "ort": "Wilhelm5, Wilhelmstraße 5, 38100 Braunschweig",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=84759",
+"quelle": "TU-Kalender"
+},
+{
+"datum": "2026-11-19",
+"zeit": "15:00",
+"titel": "Quantifizierung des Austauschs von Kohlendioxid und Wasserdampf zwischen der Atmosphäre und einem naturnahen Laubwald",
+"ort": "Hörsaal LK 19c.2",
+"sparte": "Wissenschaft & Vortrag",
+"hinweis": "",
+"url": "https://magazin.tu-braunschweig.de/?p=85218",
 "quelle": "TU-Kalender"
 },
 {
@@ -303,7 +296,6 @@
 "ort": "Eule/XO, Silberquelle, Etage Eins, brainklub, 42° Fieber, 381 + Flamingo Rosso",
 "sparte": "Wissenschaft & Vortrag",
 "hinweis": "",
-"preis": "",
 "url": "https://magazin.tu-braunschweig.de/?p=85759",
 "quelle": "TU-Kalender"
 }
