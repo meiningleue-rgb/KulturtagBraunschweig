@@ -1,10 +1,10 @@
 {
- "stand": "2026-10-30T15:18+01:00",
+ "stand": "2026-10-30T15:27+01:00",
  "zeitraum_bis": "2026-11-20",
  "gelesen": [
   "BIFF – Filmfestival: 201 Einträge",
   "Brunsviga: 18 Einträge",
-  "Das KULT: 16 Einträge (älterer Abruf)",
+  "Das KULT: 16 Einträge",
   "Buchhandlung Graff: 4 Einträge (älterer Abruf)",
   "Haus der Wissenschaft: 17 Einträge",
   "HBK: 11 Einträge",
@@ -19,8 +19,7 @@
   "westand: 9 Einträge"
  ],
  "offen": [
-  "Das KULT",
   "Buchhandlung Graff"
  ],
- "anzahl": 619
+ "anzahl": 618
 }
