@@ -4,6 +4,8 @@ Tagesübersicht kultureller Veranstaltungen in Braunschweig – Theater, Konzert
 
 **Seite:** wird über GitHub Pages veröffentlicht (Adresse unter *Settings → Pages*) und ist mit einem Passwort geschützt (StatiCrypt). Das Passwort steht als Repository-Geheimnis `KULTURTAG_PASSWORT` unter *Settings → Secrets and variables → Actions*; nach einer Änderung einmal „Run workflow“ ausführen. Auf dem iPhone in Safari öffnen → Teilen → „Zum Home-Bildschirm“, dann verhält sie sich wie eine App. Die Merkliste wird pro Gerät gespeichert.
 
+Ausführliche Erklärung für Nicht-Programmierer: [ERKLAERUNG.md](ERKLAERUNG.md)
+
 Alle Angaben ohne Gewähr – jeder Termin verlinkt auf die Originalquelle, dort gilt, was dort steht.
 
 ## Wie es läuft

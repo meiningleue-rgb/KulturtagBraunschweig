@@ -212,6 +212,15 @@ def abrufen(start, ende, sichtbar=False):
 
 
 # ---------------------------------------------------------------- Ausgabe
+def zaehler():
+    """Besucherzähler (GoatCounter, ohne Cookies) – nur wenn GOATCOUNTER gesetzt ist, z. B. „kulturtag-bs“."""
+    code = re.sub(r"[^a-z0-9-]", "", os.environ.get("GOATCOUNTER", "").strip().lower())
+    if not code:
+        return ""
+    return (f"<script data-goatcounter='https://{code}.goatcounter.com/count' "
+            "data-goatcounter-settings='{\"allow_local\":false}' async src='https://gc.zgo.at/count.js'></script>")
+
+
 def seite_bauen(tage, laufend, stand, ziel):
     vorlage = TEMPLATE.read_text(encoding="utf-8")
     daten = json.dumps({"tage": tage, "laufend": laufend, "stand": stand}, ensure_ascii=False)
@@ -223,7 +232,8 @@ def seite_bauen(tage, laufend, stand, ziel):
             "<meta name=theme-color content='#a3241c'>"
             "<link rel=apple-touch-icon href='apple-touch-icon.png'>"
             "<link rel=icon href='apple-touch-icon.png'>"
-            "<style>[hidden]{display:none!important}body{margin:0}</style></head><body>"
+            "<style>[hidden]{display:none!important}body{margin:0}</style>"
+            + zaehler() + "</head><body>"
             f"<script>window.KT_DATA={daten};</script>\n{vorlage}</body></html>")
     ziel.write_text(html, encoding="utf-8")
 
