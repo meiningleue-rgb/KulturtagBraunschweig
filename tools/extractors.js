@@ -323,6 +323,7 @@ const KULTURTAG_QUELLEN = [
       const MON = { januar:1, februar:2, "märz":3, april:4, mai:5, juni:6, juli:7, august:8, september:9, oktober:10, november:11, dezember:12 };
       const y0 = +start.slice(0, 4), m0 = +start.slice(5, 7);
       const t = el => (el?.innerText || el?.textContent || "").replace(/\s+/g, " ").trim();
+      for (let i = 0; i < 30 && !document.querySelector(".event-compact"); i++) await new Promise(r => setTimeout(r, 500));   // Liste kommt verzögert
       const out = [];
       document.querySelectorAll(".event-compact").forEach(ev => {
         const dm = t(ev.querySelector(".field--name-field-datum")).match(/(\d{1,2})\.\s*([A-Za-zäÄ]+)/); if (!dm) return;
