@@ -40,10 +40,10 @@ NICHT_KULTUR = re.compile(
     r"tasting|yoga|lampionfahrt|ü30|ü60|festival of lights: ein stadtspaziergang|afterwork-stadtspaziergang|"
     r"stadtspaziergang in der löwenstadt|friedensmeditation|after the lights|ersti session|linux basics|bioinformatics", re.I)
 VORRANG = {"Staatstheater": 0, "Brunsviga": 0, "westand": 0, "Schön & Frölich": 0, "Jazz Braunschweig": 0,
-           "Kulturkalender Schloss": 0, "Graff": 0, "Das KULT": 0, "HBK": 0, "BIFF": 0, "Haus der Wissenschaft": 1, "TU-Kalender": 1, "Stadtkalender": 2, "filmstarts.de": 3, "mvp.de": 4}
+           "Kulturkalender Schloss": 0, "Graff": 0, "Das KULT": 0, "HBK": 0, "BIFF": 0, "Raabe-Haus": 0, "Haus der Wissenschaft": 1, "TU-Kalender": 1, "Stadtkalender": 2, "filmstarts.de": 3, "mvp.de": 4}
 # Spielstätten-Quellen: Sparte, wenn sich aus dem Titel nichts ableiten lässt
 STANDARD_SPARTE = {"Brunsviga": "Kleinkunst & Comedy", "westand": "Musik", "Schön & Frölich": "Musik", "Jazz Braunschweig": "Musik",
-                   "Graff": "Literatur & Bibliothek", "Das KULT": "Bühne",
+                   "Graff": "Literatur & Bibliothek", "Raabe-Haus": "Literatur & Bibliothek", "Das KULT": "Bühne",
                    "Haus der Wissenschaft": "Wissenschaft & Vortrag", "HBK": "Ausstellung & Führung"}
 GENAUER = {"Kino", "Wissenschaft & Vortrag", "Kinder & Familie", "Ausstellung & Führung", "Literatur & Bibliothek"}
 ORT_STOPP = {"braunschweig", "straße", "strasse", "platz", "haus", "kulturzentrum", "zentrum", "event", "theater"}
@@ -231,7 +231,7 @@ def seite_bauen(tage, laufend, stand, ziel):
 QUELLNAMEN = {"stadtkalender": "Stadtkalender", "tu": "TU Braunschweig", "staatstheater": "Staatstheater", "mvp": "mvp.de",
               "kinos": "Kinos (filmstarts.de)", "biff": "BIFF – Filmfestival", "brunsviga": "Brunsviga", "westand": "westand",
               "schoenfroelich": "Schön & Frölich", "jazzbs": "Initiative Jazz", "daskult": "Das KULT",
-              "hausderwissenschaft": "Haus der Wissenschaft", "hbk": "HBK", "kulturkalender-schloss": "Kulturkalender Schloss (PDF)"}
+              "hausderwissenschaft": "Haus der Wissenschaft", "hbk": "HBK", "kulturkalender-schloss": "Kulturkalender Schloss (PDF)", "raabe-haus": "Raabe-Haus (PDF)"}
 
 
 def github_lauf(repo, start, ende, stand, sichtbar=False, ohne_abruf=False):
@@ -245,19 +245,20 @@ def github_lauf(repo, start, ende, stand, sichtbar=False, ohne_abruf=False):
             namen[qid] = name
             if daten:
                 (rohdir / f"{qid}.json").write_text(json.dumps(daten, ensure_ascii=False, indent=0), encoding="utf-8")
-    # Kulturkalender Schloss: nur als PDF, eigener Leser (braucht pdftotext)
+    # Quellen, die es nur als PDF gibt: eigene Leser (brauchen pdftotext)
     if not ohne_abruf:
-        try:
-            import roter_saal
-            kk = roter_saal.abrufen()
-            if kk:
-                (rohdir / "kulturkalender-schloss.json").write_text(json.dumps(kk, ensure_ascii=False, indent=0), encoding="utf-8")
-            abrufen.je_quelle["kulturkalender-schloss"] = ("Kulturkalender Schloss", kk or None)
-            print(f"  ✓ Kulturkalender Schloss (PDF): {len(kk)} Einträge")
-        except Exception as ex:
-            abrufen.je_quelle["kulturkalender-schloss"] = ("Kulturkalender Schloss", None)
-            namen["kulturkalender-schloss"] = "Kulturkalender Schloss"
-            print(f"  ✗ Kulturkalender Schloss (PDF): {str(ex)[:120]}")
+        import roter_saal, raabe_haus
+        for qid, name, modul in (("kulturkalender-schloss", "Kulturkalender Schloss", roter_saal), ("raabe-haus", "Raabe-Haus", raabe_haus)):
+            try:
+                daten = modul.abrufen()
+                if daten:
+                    (rohdir / f"{qid}.json").write_text(json.dumps(daten, ensure_ascii=False, indent=0), encoding="utf-8")
+                abrufen.je_quelle[qid] = (name, daten or None)
+                print(f"  ✓ {name} (PDF): {len(daten)} Einträge")
+            except Exception as ex:
+                abrufen.je_quelle[qid] = (name, None)
+                namen[qid] = name
+                print(f"  ✗ {name} (PDF): {str(ex)[:120]}")
     roh = []
     heute_abgerufen = set() if ohne_abruf else {q for q, (_, d) in abrufen.je_quelle.items() if d}
     for f in sorted(rohdir.glob("*.json")):

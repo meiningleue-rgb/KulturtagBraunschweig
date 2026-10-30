@@ -1,6 +1,6 @@
 # Kulturtag Braunschweig
 
-Tagesübersicht kultureller Veranstaltungen in Braunschweig – Theater, Konzerte, Kino, Lesungen, Vorträge, Ausstellungen – aus 14 Quellen zusammengeführt, Dubletten zusammengelegt.
+Tagesübersicht kultureller Veranstaltungen in Braunschweig – Theater, Konzerte, Kino, Lesungen, Vorträge, Ausstellungen – aus 15 Quellen zusammengeführt, Dubletten zusammengelegt.
 
 **Seite:** wird über GitHub Pages veröffentlicht (Adresse unter *Settings → Pages*) und ist mit einem Passwort geschützt (StatiCrypt). Das Passwort steht als Repository-Geheimnis `KULTURTAG_PASSWORT` unter *Settings → Secrets and variables → Actions*; nach einer Änderung einmal „Run workflow“ ausführen. Auf dem iPhone in Safari öffnen → Teilen → „Zum Home-Bildschirm“, dann verhält sie sich wie eine App. Die Merkliste wird pro Gerät gespeichert.
 
@@ -18,5 +18,6 @@ Lokal: `pip install playwright && python -m playwright install chromium`, dann `
 ## Bekannte Lücken
 
 - Kulturkalender Schloss / Roter Saal: nur als PDF, wird mit `tools/roter_saal.py` (pdftotext) aus dem Terminkalender am Heftende gelesen.
+- Raabe-Haus: Veranstaltungsblatt (PDF) von braunschweig.de/literaturzentrum, gelesen mit `tools/raabe_haus.py`; enthält auch Lesungen bei Partnern (z. B. Buchhandlung Bücherwurm).
 - Buchhandlung Graff ist nicht dabei: ihre Seite ist gegen automatische Abrufe geschützt (Anubis).
 - BIFF: Die Ausgabe-Nummer in `extractors.js` (2026 = 40) muss jährlich hochgezählt werden.
