@@ -1,0 +1,310 @@
+<title>Kulturtag Braunschweig</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: Kopf, Tagesleiste (horizontal scrollbar), Seitenleiste mit Filtern + Hauptspalte mit Terminen nach Tageszeit */
+:root{
+  --bg:#f7f6f4; --surface:#ffffff; --ink:#1f1b1a; --muted:#5f5855; --line:#e3dfdc; --lion:#a3241c; --lion-ink:#ffffff; --lion-soft:#f6e4e1;
+  --c-buehne:#a3241c; --c-musik:#2f5d8a; --c-klein:#b0540f; --c-kino:#3d3d3d; --c-lit:#7a5a00; --c-wiss:#1f6f5c; --c-kirche:#6a4c93; --c-kinder:#2f7a8a; --c-aus:#7a4a2a;
+  --f-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif; --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#171413; --surface:#211d1c; --ink:#efe9e6; --muted:#aaa19d; --line:#3a3331; --lion:#e8786d; --lion-ink:#1a0f0e; --lion-soft:#3a2321;
+  --c-buehne:#e8786d; --c-musik:#7fb0e0; --c-klein:#e9a15f; --c-kino:#c9c4c1; --c-lit:#e0c060; --c-wiss:#6fcbb2; --c-kirche:#b9a0e0; --c-kinder:#79c9d8; --c-aus:#d7a07a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#171413; --surface:#211d1c; --ink:#efe9e6; --muted:#aaa19d; --line:#3a3331; --lion:#e8786d; --lion-ink:#1a0f0e; --lion-soft:#3a2321;
+  --c-buehne:#e8786d; --c-musik:#7fb0e0; --c-klein:#e9a15f; --c-kino:#c9c4c1; --c-lit:#e0c060; --c-wiss:#6fcbb2; --c-kirche:#b9a0e0; --c-kinder:#79c9d8; --c-aus:#d7a07a; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5}
+.wrap{max-width:1240px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 32px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--lion)}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(28px,5vw,40px);line-height:1.1;margin:4px 0 0;text-wrap:balance}
+.stats{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--f-mono);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.stats b{color:var(--ink);font-weight:500}
+.days{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+.day{flex:0 0 76px;min-height:68px;padding:8px 4px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;cursor:pointer;text-align:center;display:grid;gap:0}
+.day .wd{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+.day .num{font-family:var(--f-display);font-size:21px;font-weight:500;line-height:1.2}
+.day .cnt{font-size:12px;color:var(--muted)}
+.day[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.day[aria-pressed="true"] .cnt{color:var(--bg);opacity:.8}
+.day.we{border-style:dashed}
+.cols{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+aside{flex:1 1 220px;max-width:100%;display:grid;gap:20px}
+main{flex:999 1 560px;min-width:0;display:grid;gap:26px}
+.h-side{margin:0 0 6px;font-family:var(--f-mono);font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+input[type=search]{font:inherit;font-size:15px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:9px 12px;min-height:44px;width:100%;box-sizing:border-box}
+.cat{display:flex;gap:10px;align-items:center;width:100%;min-height:40px;padding:6px 10px;border-radius:6px;border:1px solid transparent;background:none;color:var(--ink);font:inherit;cursor:pointer;text-align:left}
+.cat[aria-pressed="true"]{border-color:var(--ink);background:var(--surface)}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.cat .n{margin-left:auto;font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.chk{display:flex;gap:10px;align-items:center;min-height:36px;cursor:pointer}
+.chk input{width:18px;height:18px;accent-color:var(--lion)}
+.box{padding:14px;background:var(--surface);border:1px solid var(--line);border-radius:8px;font-size:13px;color:var(--muted);display:grid;gap:6px}
+.box b{color:var(--ink)}
+.box ul{margin:0;padding-left:18px}
+h2.blk{margin:0 0 4px;display:flex;gap:12px;align-items:baseline;font-family:var(--f-display);font-weight:500;font-size:20px}
+h2.blk span{font-family:var(--f-mono);font-size:12px;font-weight:400;color:var(--muted)}
+.ev{display:grid;grid-template-columns:62px minmax(0,1fr) auto;gap:4px 16px;padding:14px 0;border-top:1px solid var(--line)}
+.ev .t{font-family:var(--f-mono);font-size:15px;font-weight:500;font-variant-numeric:tabular-nums}
+.ev .t.open{color:var(--muted);font-size:12px;font-weight:400}
+.ev h3{margin:0;font-size:18px;font-weight:600;line-height:1.3}
+.ev .meta{color:var(--muted);font-size:15px}
+.ev .src{font-size:13px;color:var(--muted)}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:11px;padding:2px 8px;border-radius:4px;color:var(--bg);margin-right:6px}
+.hint{font-size:14px;color:var(--muted);font-style:italic}
+.save{width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
+.save[aria-pressed="true"]{color:var(--lion);border-color:var(--lion)}
+.run{display:grid;gap:0}
+.run .ev{grid-template-columns:minmax(0,1fr) auto}
+a{color:var(--lion)}
+:focus-visible{outline:2px solid var(--lion);outline-offset:2px}
+.empty{color:var(--muted);padding:24px 0}
+.refresh{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.btn{font:inherit;font-weight:600;font-size:14px;min-height:40px;padding:8px 14px;border-radius:999px;border:1px solid var(--lion);background:var(--lion);color:var(--lion-ink);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.btn[disabled]{opacity:.55;cursor:default}
+.btn svg{flex:none}
+.run-state{font-size:13px;color:var(--muted)}
+.ev.cancel h3{text-decoration:line-through;text-decoration-color:var(--lion)}
+.src a+a::before{content:" · ";color:var(--muted)}
+select{font:inherit;font-size:15px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px;min-height:44px;width:100%;box-sizing:border-box}
+.field{display:grid;gap:4px}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
+.seg button{flex:1;font:inherit;font-size:14px;min-height:40px;border:0;background:none;color:var(--ink);cursor:pointer;padding:6px 4px}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.search-box{display:grid;gap:12px;padding:14px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.search-box.on{border-color:var(--lion);box-shadow:0 0 0 1px var(--lion)}
+.linkbtn{font:inherit;font-size:14px;background:none;border:0;color:var(--lion);cursor:pointer;padding:6px 0;text-align:left;text-decoration:underline}
+.ev .when{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.day.dim{opacity:.45}
+.jump{display:none}
+@media (max-width:760px){aside{order:2}.jump{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:14px;text-decoration:none}}
+@media (max-width:560px){.ev{grid-template-columns:52px minmax(0,1fr) auto;gap:4px 10px}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">Kulturtag Braunschweig</div>
+      <h1 id="dayTitle">Termine werden geladen …</h1>
+    </div>
+    <div style="display:grid;gap:10px;justify-items:end">
+      <div class="refresh" id="refresh" hidden>
+        <span class="run-state" id="runState"></span>
+        <button type="button" class="btn" id="refreshBtn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg>Jetzt aktualisieren</button>
+      </div>
+      <div class="stats" id="stats"></div>
+      <a class="jump" href="#searchBox"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Suchen &amp; filtern</a>
+    </div>
+  </header>
+
+  <nav class="days" id="days" aria-label="Tag wählen"></nav>
+
+  <div class="cols">
+    <aside>
+      <section class="search-box" id="searchBox" aria-labelledby="sh">
+        <h2 class="h-side" id="sh" style="margin:0">Suchen über mehrere Tage</h2>
+        <div class="field"><label class="h-side" for="q" style="margin:0">Künstler, Titel, Stichwort</label><input id="q" type="search" placeholder="z. B. Jazz, Goosen, Orgel …"></div>
+        <div class="field"><label class="h-side" for="ort" style="margin:0">Ort</label><select id="ort"><option value="">Alle Orte</option></select></div>
+        <div class="field"><label class="h-side" for="stil" style="margin:0">Musikrichtung</label><select id="stil"><option value="">Alle Richtungen</option></select></div>
+        <div class="field"><span class="h-side" style="margin:0">Zeitraum</span>
+          <div class="seg" id="range" role="group" aria-label="Zeitraum der Suche"><button type="button" data-r="7">7 Tage</button><button type="button" data-r="14">14 Tage</button><button type="button" data-r="99" aria-pressed="true">Alle</button></div></div>
+        <button type="button" class="linkbtn" id="reset" hidden>Suche zurücksetzen</button>
+      </section>
+      <section><h2 class="h-side">Sparten</h2><div id="cats"></div></section>
+      <section>
+        <h2 class="h-side">Filter</h2>
+        <label class="chk" for="frei"><input id="frei" type="checkbox">Nur Eintritt frei</label>
+        <label class="chk" for="abend"><input id="abend" type="checkbox">Nur ab 18 Uhr</label>
+        <label class="chk" for="merk"><input id="merk" type="checkbox">Nur Merkliste</label>
+      </section>
+      <section class="box" id="stand"><b>Abrufstand</b><span>Wird geladen …</span></section>
+    </aside>
+    <main id="main"><p class="empty">Die Termine kommen aus der Datenbank dieser Seite. Sobald sie antwortet, erscheint hier der gewählte Tag.</p></main>
+  </div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const CAT = {"Bühne":"--c-buehne","Musik":"--c-musik","Kleinkunst & Comedy":"--c-klein","Kino":"--c-kino","Literatur & Bibliothek":"--c-lit","Wissenschaft & Vortrag":"--c-wiss","Kirchenmusik":"--c-kirche","Kinder & Familie":"--c-kinder","Ausstellung & Führung":"--c-aus"};
+const WD = ["So","Mo","Di","Mi","Do","Fr","Sa"], WDL = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
+const MON = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
+const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+const today = new Date(); today.setHours(12,0,0,0);
+const todayIso = iso(today);
+let tage = {}, laufend = [], stand = null, sel = todayIso, cat = "alle", range = 99;
+let saved = {}; try { saved = JSON.parse(localStorage.getItem("kt-merk") || "{}"); } catch(_) {}
+const keyOf = e => e.datum + "|" + (e.zeit||"") + "|" + e.titel;
+const isFree = e => /frei|spende/i.test(e.preis || "");
+
+// ---- Orte und Musikrichtungen (aus Titel/Ort/Hinweis abgeleitet)
+const VENUES = [
+  ["westand", /westand/i], ["KufA-Haus", /kufa/i], ["Brunsviga", /brunsviga/i], ["Schön & Frölich", /sch[öo]n\s*&\s*fr[öo]lich|pauls boutique/i],
+  ["Staatstheater – Großes Haus", /gro(ss|ß)es haus/i], ["Staatstheater – Kleines Haus", /kleines haus/i], ["Staatstheater – Aquarium", /aquarium/i],
+  ["Staatstheater (weitere Spielorte)", /staatstheater|louis-spohr|tanzsaal im park/i],
+  ["Roter Saal im Schloss", /roter saal/i], ["Astor Filmtheater", /astor/i], ["Universum Filmtheater", /universum/i], ["SchunterKino", /schunterkino/i],
+  ["Das KULT", /\bkult\b/i], ["Eule/XO", /eule\s*\/?\s*xo/i], ["B58", /\bb ?58\b/i], ["Lindenhof-Theater", /lindenhof/i],
+  ["Komödie am Altstadtmarkt", /komödie am altstadt/i], ["Theater Fadenschein", /fadenschein/i], ["Theater in der Kaffeetwete", /kaffeetwete/i],
+  ["LOT-Theater", /\blot[- ]theater/i], ["Spiegelzelt", /spiegelzelt/i], ["Volkswagen Halle", /volkswagen halle/i], ["Schabreu", /schabreu/i],
+  ["Stadtbibliothek", /stadtbibliothek/i], ["Raabe-Haus", /raabe-haus/i], ["Haus der Wissenschaft", /haus der wissenschaft/i],
+  ["TU Braunschweig", /altgebäude|audimax|campus nord|chemiezentrum|hörsaal|international house|\btu\b|raum bw/i],
+  ["Herzog Anton Ulrich-Museum", /anton ulrich/i], ["Städtisches Museum", /städtisches museum|altstadtrathaus/i], ["Schlossmuseum", /schlossmuseum/i],
+  ["Landesmuseum", /landesmuseum/i], ["Naturhistorisches Museum", /naturhistorisch/i], ["Kunstverein", /kunstverein/i], ["Museum für Photographie", /photographie/i],
+  ["HBK", /hochschule für bildende/i], ["Dom", /\bdom\b/i], ["St. Michaelis", /michaelis/i], ["St. Magni", /magni/i], ["Klosterkirche Riddagshausen", /riddagshausen/i],
+  ["Ev. Akademie Abt Jerusalem", /abt jerusalem/i], ["Leisewitzhaus", /leisewitzhaus/i], ["Haus der Schlaraffen", /schlaraffen/i], ["Kulturpunkt West", /kulturpunkt west/i],
+];
+const venueOf = e => { if (e._v !== undefined) return e._v; const o = e.ort || ""; const m = VENUES.find(([, re]) => re.test(o)); return (e._v = m ? m[0] : (o.split(",")[0].trim() || "Ort unbekannt")); };
+const STILE = [
+  ["Klassik & Oper", /klassik|sinfonie|orchester|kammermusik|klavier|quartett|\boper\b|operette|cello|arpeggione|meisterkonzert|winterreise|flauto|strings attached/i],
+  ["Jazz & Blues", /jazz|blues|swing|bossa|brazilian/i],
+  ["Rock & Pop", /rock|\bpop\b|popkonzert|indie|singer|yara|pohlmann|querbeat|maybebop/i],
+  ["Metal, Punk & Hardcore", /metal|hard ?rock|heavy|hardcore|punk/i],
+  ["Hip-Hop, Soul & Reggae", /hip-?hop|\brap\b|soul|r'n'b|reggae|\bmc\b|gentleman/i],
+  ["Chor, Orgel & Kirchenmusik", /\bchor|chöre|orgel|kantate|gospel|spiritual|bläser|hubertusmesse|israel in egypt/i],
+  ["Lieder, Folk & Chanson", /liedermach|\bfolk|chanson|unplugged|lieder\b|erzählkonzert|songwriter/i],
+  ["Elektro & Party", /elektro|electro|techno|\bdj\b|party/i],
+];
+const isMusic = e => e.sparte === "Musik" || e.sparte === "Kirchenmusik" || /konzert|musik|band|live|tour|chor|orgel/i.test(e.titel + " " + (e.hinweis||""));
+const stileOf = e => { if (e._s) return e._s; const t = `${e.titel} ${e.hinweis||""} ${e.ort||""}`; return (e._s = isMusic(e) ? STILE.filter(([, re]) => re.test(t)).map(([n]) => n) : []); };
+
+const searching = () => !!($("#q").value.trim() || $("#ort").value || $("#stil").value);
+const addDays = (s, n) => { const d = new Date(s + "T12:00:00"); d.setDate(d.getDate() + n); return iso(d); };
+function inRange(d){ return range >= 99 || d <= addDays(todayIso, range - 1); }
+
+function filt(e){
+  const q = $("#q").value.trim().toLowerCase();
+  if ($("#frei").checked && !isFree(e)) return false;
+  if ($("#abend").checked && !(e.zeit && e.zeit >= "18:00")) return false;
+  if ($("#merk").checked && !saved[keyOf(e)]) return false;
+  if ($("#ort").value && venueOf(e) !== $("#ort").value) return false;
+  if ($("#stil").value && !stileOf(e).includes($("#stil").value)) return false;
+  if (q && !q.split(/\s+/).every(w => [e.titel,e.ort,e.hinweis,e.sparte,venueOf(e),stileOf(e).join(" ")].join(" ").toLowerCase().includes(w))) return false;
+  return true;
+}
+function fillSelects(){
+  // Auswahllisten mit Anzahl im gewählten Zeitraum (ohne den eigenen Filter)
+  const pool = Object.entries(tage).filter(([d]) => inRange(d)).flatMap(([, l]) => l);
+  const vc = {}, sc = {};
+  pool.forEach(e => { vc[venueOf(e)] = (vc[venueOf(e)] || 0) + 1; stileOf(e).forEach(s => sc[s] = (sc[s] || 0) + 1); });
+  const ov = $("#ort").value, sv = $("#stil").value;
+  const venues = Object.entries(vc).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "de"));
+  $("#ort").innerHTML = `<option value="">Alle Orte (${venues.length})</option>` + venues.map(([n, c]) => `<option value="${esc(n)}"${n===ov?" selected":""}>${esc(n)} · ${c}</option>`).join("")
+    + (ov && !vc[ov] ? `<option value="${esc(ov)}" selected>${esc(ov)} · 0</option>` : "");
+  $("#stil").innerHTML = `<option value="">Alle Richtungen</option>` + STILE.map(([n]) => `<option value="${esc(n)}"${n===sv?" selected":""}>${esc(n)} · ${sc[n]||0}</option>`).join("");
+}
+function render(){
+  const all = Object.keys(tage).sort();
+  const end = all.length ? all[all.length-1] : todayIso;
+  const S = searching();
+  fillSelects();
+  $("#searchBox").classList.toggle("on", S);
+  $("#reset").hidden = !S;
+  $("#range").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.r === range)));
+  // Tagesleiste: heute bis letzter Tag mit Daten (max. 28 Tage)
+  const days = []; for (let d = new Date(today); iso(d) <= end && days.length < 28; d.setDate(d.getDate()+1)) days.push(new Date(d));
+  if (!days.length) days.push(new Date(today));
+  $("#days").innerHTML = days.map(d => {
+    const k = iso(d), n = (tage[k]||[]).filter(filt).filter(e => cat==="alle" || e.sparte===cat).length, we = d.getDay()===0||d.getDay()===6;
+    const dim = S && (!inRange(k) || !n);
+    return `<button type="button" class="day${we?" we":""}${dim?" dim":""}" data-d="${k}" aria-pressed="${!S && k===sel}"><span class="wd">${k===todayIso?"Heute":WD[d.getDay()]}</span><span class="num">${d.getDate()}.${d.getMonth()+1}.</span><span class="cnt">${n} Termine</span></button>`;
+  }).join("");
+  const dayLabel = k => { const sd = new Date(k+"T12:00:00"); return (k===todayIso?"Heute, ":"") + WDL[sd.getDay()] + " " + sd.getDate() + ". " + MON[sd.getMonth()]; };
+  const scopeDays = S ? all.filter(inRange) : [sel];
+  const scopeEv = scopeDays.flatMap(k => (tage[k]||[]).filter(filt));
+  const shown = scopeEv.filter(e => cat==="alle" || e.sparte===cat);
+  const parts = [$("#q").value.trim() && `„${$("#q").value.trim()}“`, $("#ort").value, $("#stil").value].filter(Boolean);
+  $("#dayTitle").textContent = S ? `Suche: ${parts.join(" · ")}` : dayLabel(sel);
+  const cats = Object.keys(CAT);
+  $("#cats").innerHTML = [["alle","Alle Sparten",scopeEv.length]].concat(cats.map(c => [c,c,scopeEv.filter(e=>e.sparte===c).length]))
+    .map(([id,l,n]) => `<button type="button" class="cat" data-c="${esc(id)}" aria-pressed="${id===cat}"><span class="dot" style="background:${id==="alle"?"var(--ink)":`var(${CAT[id]})`}"></span>${esc(l)}<span class="n">${n}</span></button>`).join("");
+  const lastDay = scopeDays.length ? scopeDays[scopeDays.length-1] : sel;
+  const run = laufend.filter(x => (S ? (x.von <= lastDay && x.bis >= todayIso) : (x.von <= sel && x.bis >= sel)) && filt({...x, zeit:"", hinweis:""}));
+  const total = Object.values(tage).reduce((a,l)=>a+l.length,0);
+  const rangeTxt = range >= 99 ? `bis ${end.slice(8,10)}.${end.slice(5,7)}.` : `in den nächsten ${range} Tagen`;
+  $("#stats").innerHTML = (S ? `<span><b>${shown.length}</b> Treffer ${rangeTxt}</span>` : `<span><b>${shown.length}</b> Termine an diesem Tag</span><span><b>${total}</b> bis ${end.slice(8,10)}.${end.slice(5,7)}.</span>`)
+    + (stand ? `<span>Stand ${new Date(stand.stand).toLocaleString("de-DE",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</span>` : "");
+  const groups = [["Vormittag & Mittag",e=>e.zeit&&e.zeit<"13:00"],["Nachmittag",e=>e.zeit>="13:00"&&e.zeit<"18:00"],["Abend",e=>e.zeit>="18:00"],["Uhrzeit noch offen",e=>!e.zeit]];
+  const card = e => {
+    const k = keyOf(e), on = !!saved[k], st = stileOf(e);
+    return `<article class="ev${/^ABGESAGT|^ENTFÄLLT/.test(e.titel)?" cancel":""}">
+      <div class="t${e.zeit?"":" open"}">${e.zeit?esc(e.zeit):"Zeit offen"}</div>
+      <div style="min-width:0;display:grid;gap:2px">
+        <div><span class="tag" style="background:var(${CAT[e.sparte]||"--c-kino"})">${esc(e.sparte)}</span>${st.length?`<span class="when">${esc(st.join(" · "))}</span>`:""}</div>
+        <h3>${esc(e.titel)}</h3>
+        <div class="meta">${esc(e.ort)}${e.preis?" · "+esc(e.preis):""}</div>
+        ${e.hinweis?`<div class="hint">${esc(e.hinweis)}</div>`:""}
+        <div class="src">${(e.quellen||[{name:e.quelle,url:e.quelle_url}]).length>1?"Quellen":"Quelle"}: ${(e.quellen||[{name:e.quelle,url:e.quelle_url}]).map(q=>`<a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.name)}</a>`).join("")}</div>
+      </div>
+      <button type="button" class="save" data-k="${esc(k)}" aria-pressed="${on}" aria-label="${on?"Von der Merkliste nehmen":"Auf die Merkliste"}"><svg width="18" height="18" viewBox="0 0 24 24" fill="${on?"currentColor":"none"}" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg></button>
+    </article>`;
+  };
+  let html;
+  if (S) {
+    const byDay = {}; shown.forEach(e => (byDay[e.datum] = byDay[e.datum] || []).push(e));
+    html = Object.keys(byDay).sort().map(k => `<section id="d-${k}"><h2 class="blk">${esc(dayLabel(k))} <span>${byDay[k].length}</span></h2>${byDay[k].sort((a,b)=>(a.zeit||"99").localeCompare(b.zeit||"99")).map(card).join("")}</section>`).join("");
+    if (!shown.length) html = `<p class="empty">Keine Treffer in diesem Zeitraum. Probier einen anderen Begriff, „Alle“ beim Zeitraum oder lockere die Filter.</p>`;
+  } else {
+    html = groups.map(([l,f]) => { const it = shown.filter(f); return it.length ? `<section><h2 class="blk">${l} <span>${it.length}</span></h2>${it.map(card).join("")}</section>` : ""; }).join("");
+    if (!shown.length && !run.some(x => cat==="alle" || x.sparte===cat)) html = `<p class="empty">${(tage[sel]||[]).length ? "Für diese Auswahl gibt es keine Termine. Probier eine andere Sparte oder lockere die Filter." : "Für diesen Tag liegen noch keine Termine vor."}</p>`;
+  }
+  const runShown = run.filter(x => cat==="alle" || x.sparte===cat);
+  if (runShown.length) html += `<section class="run"><h2 class="blk">${S?"Läuft in diesem Zeitraum":"Läuft an diesem Tag"} <span>${runShown.length}</span></h2>${runShown.map(x=>`<article class="ev"><div style="min-width:0;display:grid;gap:2px"><div><span class="tag" style="background:var(${CAT[x.sparte]||"--c-aus"})">${esc(x.sparte)}</span></div><h3>${esc(x.titel)}</h3><div class="meta">${esc(x.ort)}${x.preis?" · "+esc(x.preis):""}</div><div class="hint">bis ${x.bis.slice(8,10)}.${x.bis.slice(5,7)}.${x.bis.slice(0,4)}</div><div class="src">Quelle: <a href="${esc(x.quelle_url)}" target="_blank" rel="noopener">${esc(x.quelle)}</a></div></div></article>`).join("")}</section>`;
+  $("#main").innerHTML = html;
+  if (stand) $("#stand").innerHTML = `<b>Abrufstand</b><span>Gelesen:</span><ul>${(stand.gelesen||[]).map(s=>`<li>${esc(s)}</li>`).join("")}</ul>${stand.offen?.length?`<span>Noch nicht erreichbar:</span><ul>${stand.offen.map(s=>`<li>${esc(s)}</li>`).join("")}</ul>`:""}`;
+}
+$("#days").addEventListener("click", e => {
+  const b = e.target.closest(".day"); if (!b) return;
+  if (searching()) { const s = document.getElementById("d-" + b.dataset.d); if (s) s.scrollIntoView({behavior:"smooth", block:"start"}); return; }
+  sel = b.dataset.d; render();
+});
+$("#cats").addEventListener("click", e => { const b = e.target.closest(".cat"); if (b){ cat = b.dataset.c; render(); }});
+$("#range").addEventListener("click", e => { const b = e.target.closest("button"); if (b){ range = +b.dataset.r; render(); }});
+$("#reset").addEventListener("click", () => { $("#q").value = ""; $("#ort").value = ""; $("#stil").value = ""; render(); $("#q").focus(); });
+$("#main").addEventListener("click", e => { const b = e.target.closest(".save"); if (!b) return; const k = b.dataset.k; if (saved[k]) delete saved[k]; else saved[k] = 1; try { localStorage.setItem("kt-merk", JSON.stringify(saved)); } catch(_) {} render(); });
+["#q","#frei","#abend","#merk","#ort","#stil"].forEach(s => $(s).addEventListener(s==="#ort"||s==="#stil"?"change":"input", render));
+
+const TRIGGER = "trig_013YmWq6HpJbCbdYfTrzUTwq";
+let dbRef = null, mcpRef = null;
+function runState(){
+  const el = $("#runState"), b = $("#refreshBtn"); if (!el) return;
+  const st = stand || {};
+  const startedAt = st.lauf_gestartet ? new Date(st.lauf_gestartet) : null;
+  const laeuft = st.lauf === "läuft" && startedAt && (Date.now() - startedAt) < 90*60*1000;
+  b.disabled = laeuft || !mcpRef;
+  el.textContent = laeuft ? `Abruf läuft seit ${startedAt.toLocaleTimeString("de-DE",{hour:"2-digit",minute:"2-digit"})} – dauert etwa 15–30 Minuten`
+    : !mcpRef ? "Aktualisieren geht nur in der Claude-App" : "Automatisch jeden Sonntag gegen 12 Uhr";
+}
+$("#refreshBtn")?.addEventListener("click", async () => {
+  if (!mcpRef) return;
+  const b = $("#refreshBtn"); b.disabled = true; $("#runState").textContent = "Abruf wird gestartet …";
+  try {
+    await mcpRef.callTool("Claude Code Remote", "fire_trigger", { trigger_id: TRIGGER }, { cache: false });
+    try { await dbRef?.doc("meta/stand").update({ lauf: "läuft", lauf_gestartet: new Date().toISOString() }); } catch(_) {}
+    $("#runState").textContent = "Abruf läuft – dauert etwa 15–30 Minuten. Die Seite aktualisiert sich von selbst.";
+  } catch (err) {
+    b.disabled = false;
+    $("#runState").textContent = err?.code === "not_granted" || err?.code === "denied" ? "Ohne Freigabe für „Claude Code Remote“ kann die Seite den Abruf nicht starten."
+      : "Der Abruf ließ sich nicht starten. Läuft dein Mac mit Chrome? Versuch es gleich noch einmal.";
+  }
+});
+
+(async () => {
+  if (window.KT_DATA) { // Offline-Ausgabe des Skripts
+    tage = {}; Object.entries(window.KT_DATA.tage||{}).forEach(([k,v]) => { if (k >= todayIso) tage[k] = v; });
+    laufend = window.KT_DATA.laufend || []; stand = window.KT_DATA.stand || null; render();
+    return;
+  }
+  $("#refresh").hidden = false;
+  const db = await window.claude?.use?.("db");
+  dbRef = db;
+  window.claude?.use?.("mcp").then(m => { mcpRef = m; runState(); });
+  if (!db){ $("#dayTitle").textContent = "Termine nicht erreichbar"; $("#main").innerHTML = `<p class="empty">Die Datenbank ist in dieser Ansicht nicht verfügbar. Öffne die Seite angemeldet in Claude.</p>`; return; }
+  db.collection("tage").onSnapshot(s => { tage = {}; s.docs.forEach(d => { const x = d.data(); if (x.datum >= todayIso) tage[x.datum] = x.termine || []; }); render(); },
+    () => { $("#main").innerHTML = `<p class="empty">Die Termine konnten nicht geladen werden. Lade die Seite neu.</p>`; });
+  db.doc("laufend/aktuell").onSnapshot(s => { laufend = s.exists ? (s.data().eintraege || []) : []; render(); });
+  db.doc("meta/stand").onSnapshot(s => { stand = s.exists ? s.data() : null; render(); runState(); });
+  runState();
+})();
+</script>

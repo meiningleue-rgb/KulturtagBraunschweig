@@ -1,0 +1,63 @@
+name: Termine abrufen
+
+on:
+  schedule:
+    # sonntags und donnerstags 10:43 deutscher Zeit (Winterzeit; im Sommer 11:43)
+    # donnerstags, weil die Kinos ihre neue Woche erst dann veröffentlichen
+    - cron: "43 9 * * 0,4"
+  workflow_dispatch: # „Run workflow“ auf GitHub oder in der GitHub-App
+  push: # nach Änderungen an Werkzeugen oder Ablauf sofort neu bauen
+    branches: [main]
+    paths: ["tools/**", ".github/workflows/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: abruf
+  cancel-in-progress: false
+
+jobs:
+  abruf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Browser installieren
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Quellen abrufen und Seite bauen
+        env:
+          TZ: Europe/Berlin
+        run: python tools/kulturtag.py --github . --tage 21
+
+      - name: Daten speichern
+        run: |
+          git config user.name "kulturtag-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add daten index.html
+          git commit -m "Termine vom $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')" || echo "keine Änderungen"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  veroeffentlichen:
+    needs: abruf
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
