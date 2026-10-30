@@ -17,5 +17,6 @@ Lokal: `pip install playwright && python -m playwright install chromium`, dann `
 
 ## Bekannte Lücken
 
-- Kulturkalender Schloss / Roter Saal gibt es nur als PDF; der Datenstand ist vom 30.10.2026 und wird nicht automatisch erneuert.
+- Kulturkalender Schloss / Roter Saal: nur als PDF, wird mit `tools/roter_saal.py` (pdftotext) aus dem Terminkalender am Heftende gelesen.
+- Buchhandlung Graff schützt ihre Seite gegen automatische Abrufe (Anubis); von GitHub aus gibt es dort nichts, die Graff-Daten bleiben auf dem letzten Stand.
 - BIFF: Die Ausgabe-Nummer in `extractors.js` (2026 = 40) muss jährlich hochgezählt werden.

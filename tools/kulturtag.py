@@ -231,7 +231,7 @@ def seite_bauen(tage, laufend, stand, ziel):
 QUELLNAMEN = {"stadtkalender": "Stadtkalender", "tu": "TU Braunschweig", "staatstheater": "Staatstheater", "mvp": "mvp.de",
               "kinos": "Kinos (filmstarts.de)", "biff": "BIFF – Filmfestival", "brunsviga": "Brunsviga", "westand": "westand",
               "schoenfroelich": "Schön & Frölich", "jazzbs": "Initiative Jazz", "graff": "Buchhandlung Graff", "daskult": "Das KULT",
-              "hausderwissenschaft": "Haus der Wissenschaft", "hbk": "HBK", "kulturkalender-schloss": "Kulturkalender Schloss (Stand 30.10.)"}
+              "hausderwissenschaft": "Haus der Wissenschaft", "hbk": "HBK", "kulturkalender-schloss": "Kulturkalender Schloss (PDF)"}
 
 
 def github_lauf(repo, start, ende, stand, sichtbar=False, ohne_abruf=False):
@@ -245,6 +245,19 @@ def github_lauf(repo, start, ende, stand, sichtbar=False, ohne_abruf=False):
             namen[qid] = name
             if daten:
                 (rohdir / f"{qid}.json").write_text(json.dumps(daten, ensure_ascii=False, indent=0), encoding="utf-8")
+    # Kulturkalender Schloss: nur als PDF, eigener Leser (braucht pdftotext)
+    if not ohne_abruf:
+        try:
+            import roter_saal
+            kk = roter_saal.abrufen()
+            if kk:
+                (rohdir / "kulturkalender-schloss.json").write_text(json.dumps(kk, ensure_ascii=False, indent=0), encoding="utf-8")
+            abrufen.je_quelle["kulturkalender-schloss"] = ("Kulturkalender Schloss", kk or None)
+            print(f"  ✓ Kulturkalender Schloss (PDF): {len(kk)} Einträge")
+        except Exception as ex:
+            abrufen.je_quelle["kulturkalender-schloss"] = ("Kulturkalender Schloss", None)
+            namen["kulturkalender-schloss"] = "Kulturkalender Schloss"
+            print(f"  ✗ Kulturkalender Schloss (PDF): {str(ex)[:120]}")
     roh = []
     heute_abgerufen = set() if ohne_abruf else {q for q, (_, d) in abrufen.je_quelle.items() if d}
     for f in sorted(rohdir.glob("*.json")):

@@ -32,6 +32,7 @@ jobs:
 
       - name: Browser installieren
         run: |
+          sudo apt-get install -y poppler-utils
           pip install playwright
           python -m playwright install --with-deps chromium
 
