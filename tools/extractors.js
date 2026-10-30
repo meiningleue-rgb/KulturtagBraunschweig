@@ -316,34 +316,6 @@ const KULTURTAG_QUELLEN = [
     },
   },
   {
-    id: "graff",
-    name: "Buchhandlung Graff",
-    startUrl: () => "https://www.graff.de/veranstaltung",
-    extract: async ({ start, end }) => {
-      const MON = { januar:1, februar:2, "märz":3, april:4, mai:5, juni:6, juli:7, august:8, september:9, oktober:10, november:11, dezember:12 };
-      const y0 = +start.slice(0, 4), m0 = +start.slice(5, 7);
-      const t = el => (el?.innerText || el?.textContent || "").replace(/\s+/g, " ").trim();
-      for (let i = 0; i < 30 && !document.querySelector(".event-compact"); i++) await new Promise(r => setTimeout(r, 500));   // Liste kommt verzögert
-      const out = [];
-      document.querySelectorAll(".event-compact").forEach(ev => {
-        const dm = t(ev.querySelector(".field--name-field-datum")).match(/(\d{1,2})\.\s*([A-Za-zäÄ]+)/); if (!dm) return;
-        const mo = MON[dm[2].toLowerCase()]; if (!mo) return;
-        const datum = `${mo < m0 ? y0 + 1 : y0}-${String(mo).padStart(2, "0")}-${dm[1].padStart(2, "0")}`;
-        if (datum < start || datum > end) return;
-        const zm = t(ev.querySelector(".orange-banner")).match(/(\d{1,2}):(\d{2})/);
-        const kopf = t(ev.querySelector("h2.event-headline")), unter = t(ev.querySelector(".field--name-field-subtitle"));
-        if (!kopf) return;
-        const a = ev.querySelector('a[href*="/veranstaltung/"]');
-        out.push({
-          datum, zeit: zm ? `${zm[1].padStart(2, "0")}:${zm[2]}` : "", titel: unter ? `${kopf} – ${unter}` : kopf,
-          ort: "Buchhandlung Graff", sparte: /kinder|vorlesen|lesen vor/i.test(kopf + unter) ? "Kinder & Familie" : "Literatur & Bibliothek",
-          hinweis: /ausverkauft/i.test(t(ev)) ? "Ausverkauft" : "", url: a ? a.href.split("?")[0] : location.href, quelle: "Graff",
-        });
-      });
-      return out;
-    },
-  },
-  {
     id: "daskult",
     name: "Das KULT (Programm)",
     startUrl: () => "https://www.daskult-theater.de/demn%C3%A4chst.html",

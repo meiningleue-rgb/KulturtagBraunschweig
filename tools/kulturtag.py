@@ -230,7 +230,7 @@ def seite_bauen(tage, laufend, stand, ziel):
 
 QUELLNAMEN = {"stadtkalender": "Stadtkalender", "tu": "TU Braunschweig", "staatstheater": "Staatstheater", "mvp": "mvp.de",
               "kinos": "Kinos (filmstarts.de)", "biff": "BIFF – Filmfestival", "brunsviga": "Brunsviga", "westand": "westand",
-              "schoenfroelich": "Schön & Frölich", "jazzbs": "Initiative Jazz", "graff": "Buchhandlung Graff", "daskult": "Das KULT",
+              "schoenfroelich": "Schön & Frölich", "jazzbs": "Initiative Jazz", "daskult": "Das KULT",
               "hausderwissenschaft": "Haus der Wissenschaft", "hbk": "HBK", "kulturkalender-schloss": "Kulturkalender Schloss (PDF)"}
 
 

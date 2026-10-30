@@ -11,7 +11,7 @@ on:
     paths: ["tools/**", ".github/workflows/**"]
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -30,6 +30,15 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Rohdaten bleiben NICHT im (öffentlichen) Repository, sondern im Zwischenspeicher von GitHub Actions.
+      # Fällt eine Quelle aus, wird ihr Stand vom letzten Lauf von hier genommen.
+      - name: Rohdaten vom letzten Lauf holen
+        uses: actions/cache@v4
+        with:
+          path: daten/roh
+          key: roh-${{ github.run_id }}
+          restore-keys: roh-
+
       - name: Browser installieren
         run: |
           sudo apt-get install -y poppler-utils
@@ -41,17 +50,37 @@ jobs:
           TZ: Europe/Berlin
         run: python tools/kulturtag.py --github . --tage 21
 
-      - name: Daten speichern
+      # Die Seite wird mit dem Passwort aus dem Repository-Geheimnis KULTURTAG_PASSWORT verschlüsselt (StatiCrypt).
+      # Ohne Geheimnis wird nur ein Hinweis veröffentlicht – nie die Termine im Klartext.
+      - name: Seite verschlüsseln
+        env:
+          PASSWORT: ${{ secrets.KULTURTAG_PASSWORT }}
         run: |
-          git config user.name "kulturtag-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add daten index.html
-          git commit -m "Termine vom $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')" || echo "keine Änderungen"
-          git push
+          mkdir -p _site
+          cp apple-touch-icon.png _site/
+          if [ -z "$PASSWORT" ]; then
+            echo "::warning::Geheimnis KULTURTAG_PASSWORT fehlt – es wird nur ein Hinweis veröffentlicht."
+            printf '%s' '<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content=noindex><title>Kulturtag Braunschweig</title><p style="font:18px system-ui;margin:3em 1em;text-align:center">Kulturtag Braunschweig wird gerade eingerichtet.</p>' > _site/index.html
+            exit 0
+          fi
+          npx -y staticrypt@3 index.html -p "$PASSWORT" -d _site -c false --short --remember 90 \
+            -s 3e72b91c3e60ea8a987ddcf2a3f0b748 \
+            --template-title "Kulturtag Braunschweig" \
+            --template-instructions "Bitte Passwort eingeben." \
+            --template-button "Öffnen" \
+            --template-placeholder "Passwort" \
+            --template-remember "Auf diesem Gerät merken" \
+            --template-error "Passwort stimmt nicht." \
+            --template-toggle-show "Passwort zeigen" \
+            --template-toggle-hide "Passwort verbergen" \
+            --template-color-primary "#a3241c" \
+            --template-color-secondary "#f7f6f4"
+          # Anmeldeseite: nicht in Suchmaschinen, Symbol für den Home-Bildschirm
+          sed -i 's#<head>#<head><meta name="robots" content="noindex,nofollow"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="Kulturtag">#' _site/index.html
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
   veroeffentlichen:
     needs: abruf

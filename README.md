@@ -1,8 +1,8 @@
 # Kulturtag Braunschweig
 
-Tagesübersicht kultureller Veranstaltungen in Braunschweig – Theater, Konzerte, Kino, Lesungen, Vorträge, Ausstellungen – aus 15 Quellen zusammengeführt, Dubletten zusammengelegt.
+Tagesübersicht kultureller Veranstaltungen in Braunschweig – Theater, Konzerte, Kino, Lesungen, Vorträge, Ausstellungen – aus 14 Quellen zusammengeführt, Dubletten zusammengelegt.
 
-**Seite:** wird über GitHub Pages veröffentlicht (Adresse unter *Settings → Pages*). Auf dem iPhone in Safari öffnen → Teilen → „Zum Home-Bildschirm“, dann verhält sie sich wie eine App. Die Merkliste wird pro Gerät gespeichert.
+**Seite:** wird über GitHub Pages veröffentlicht (Adresse unter *Settings → Pages*) und ist mit einem Passwort geschützt (StatiCrypt). Das Passwort steht als Repository-Geheimnis `KULTURTAG_PASSWORT` unter *Settings → Secrets and variables → Actions*; nach einer Änderung einmal „Run workflow“ ausführen. Auf dem iPhone in Safari öffnen → Teilen → „Zum Home-Bildschirm“, dann verhält sie sich wie eine App. Die Merkliste wird pro Gerät gespeichert.
 
 Alle Angaben ohne Gewähr – jeder Termin verlinkt auf die Originalquelle, dort gilt, was dort steht.
 
@@ -11,12 +11,12 @@ Alle Angaben ohne Gewähr – jeder Termin verlinkt auf die Originalquelle, dort
 - `.github/workflows/abruf.yml` ruft sonntags und donnerstags alle Quellen ab (headless Chromium über Playwright), baut `index.html` und veröffentlicht sie. Manuell: *Actions → Termine abrufen → Run workflow* (geht auch in der GitHub-App).
 - `tools/extractors.js` – eine Auslese-Funktion je Quelle, läuft im Browser auf der jeweiligen Seite.
 - `tools/kulturtag.py` – Abruf, Zusammenführen, Dubletten, Sparten; `--github .` schreibt Rohdaten nach `daten/roh/` und die Seite nach `index.html`.
-- Scheitert eine Quelle, bleiben ihre Rohdaten vom letzten erfolgreichen Abruf stehen; im Kasten „Abrufstand“ steht dann „älterer Abruf“.
+- Termine und Rohdaten liegen nicht im Repository, nur verschlüsselt auf der Seite. Die Rohdaten werden zwischen den Läufen im Actions-Zwischenspeicher gehalten: scheitert eine Quelle, bleibt ihr letzter Stand stehen („älterer Abruf“).
 
 Lokal: `pip install playwright && python -m playwright install chromium`, dann `python tools/kulturtag.py --github .`
 
 ## Bekannte Lücken
 
 - Kulturkalender Schloss / Roter Saal: nur als PDF, wird mit `tools/roter_saal.py` (pdftotext) aus dem Terminkalender am Heftende gelesen.
-- Buchhandlung Graff schützt ihre Seite gegen automatische Abrufe (Anubis); von GitHub aus gibt es dort nichts, die Graff-Daten bleiben auf dem letzten Stand.
+- Buchhandlung Graff ist nicht dabei: ihre Seite ist gegen automatische Abrufe geschützt (Anubis).
 - BIFF: Die Ausgabe-Nummer in `extractors.js` (2026 = 40) muss jährlich hochgezählt werden.
