@@ -1,0 +1,61 @@
+Länge 261083, teamResults 354, <tr 35
+nschau.de/assets_4.51.1/base/icons/icons/svgmap.min.svg#arrow-right"></use>
+</svg></span>
+<span class="c-content-nav__link-text js-title">33. Spieltag</span></a></li><li class="c-content-nav__item">
+<a
+href="https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100~_matchday-34.html"
+class="link c-content-nav__link js-loadScript"
+data-hr-click-tracking='{"settings": [{"type":"uxAction","secondLevelId": "1","clickLabel":"Contentnavigation::34. Spieltag::-Link geklickt"}]}'
+>        <span class="c-content-nav__link-icon"><svg class="icon " role="presentation" aria-hidden="true"><use href="https://www.hessenschau.de/assets_4.51.1/base/icons/icons/svgmap.min.svg#arrow-right"></use>
+</svg></span>
+<span class="c-content-nav__link-text js-title">34. Spieltag</span></a></li></ul></div>
+</div>
+</nav>
+</div>
+</div>
+</section>
+<h3 class="sportstable__headline text__headline">Basketball Bundesliga 2026/2027</h3>
+<table class="teamResults">
+<thead>
+<tr>
+<th class="teamResults__col -header -matchday">
+<abbr class="abbr -noDecoration teamResults__innerCol -header -matchday"
+title="Spieltag"><span
+class="abbr"
+data-abbr="Spieltag"><span
+class="abbr__text">ST</span></span></abbr>                                                </th>
+<th class="teamResults__col -header -date">
+<span class="teamResults__innerCol -header -date">Datum</span><span class="teamResults__innerCol -header -dateTimeSeparator">/</span><!--
+--><span class="teamResults__innerCol -header -time">Zeit</span>
+</th>
+<th class="teamResults__col -header">
+<span class="teamResults__innerCol -header -home">Heim</span><span class="teamResults__innerCol -header -visitorHomeSeparator">/</span><!--
+--><span class="teamResults__innerCol -header -visitor">Gast</span>
+</th>
+<th class="teamResults__col -header -result">
+<abbr class="abbr -noDecoration teamResults__innerCol -header -result"
+title="Ergebnis "><span
+class="abbr"
+data-abbr="Ergebnis"><span
+class="abbr__text">Erg</span></span></abbr>                                        </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="teamResults__col -data -matchday">1</td>
+<td class="teamResults__col -data -date">
+<span class="teamResults__innerCol -data -date">19.09.2026
+</span><span class="teamResults__innerCol -data -time">18:30</span>
+</td>
+<td class="teamResults__col -data"><!--
+--><abbr class="abbr -noDecoration teamResults__innerCol -data -teamName -home"
+title="Löwen Braunschweig"><span
+class="abbr"
+data-abbr="Löwen Braunschweig"><span
+class="abbr__text">Braunschweig</span></span></abbr><span class="teamResults__innerCol -data -visitorHomeSeparator">:</span><!--
+--><abbr class="abbr -noDecoration teamResults__innerCol -data -teamName -visitor"
+title="Gladiators Trier"><span
+class="abbr"
+data-abbr="Gladiators Trier"><span
+class="abbr__text">Gladiators Trier</span></span></abbr>                                            </td>
+<td class="teamResults__col -data -result ">                                                        <span class="teamResul

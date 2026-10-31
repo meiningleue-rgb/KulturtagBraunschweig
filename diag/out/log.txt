@@ -1,11 +1,67 @@
-✓ Basketball Löwen (BBL): 0
-[]
+✓ Basketball Löwen (BBL): 14
+[
+ {
+  "datum": "2026-10-31",
+  "zeit": "18:30",
+  "titel": "Basketball: Löwen Braunschweig – TG Würzburg Baskets",
+  "ort": "Volkswagen Halle Braunschweig, Europaplatz 1",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · Basketball-Bundesliga (BBL)",
+  "preis": "",
+  "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100~team_id-151.html",
+  "quelle": "Basketball Löwen"
+ },
+ {
+  "datum": "2026-11-21",
+  "zeit": "18:30",
+  "titel": "Basketball: Löwen Braunschweig – Brose Baskets Bamberg",
+  "ort": "Volkswagen Halle Braunschweig, Europaplatz 1",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · Basketball-Bundesliga (BBL)",
+  "preis": "",
+  "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100~team_id-151.html",
+  "quelle": "Basketball Löwen"
+ },
+ {
+  "datum": "2026-12-06",
+  "zeit": "16:30",
+  "titel": "Basketball: Löwen Braunschweig – Skyliners Frankfurt",
+  "ort": "Volkswagen Halle Braunschweig, Europaplatz 1",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · Basketball-Bundesliga (BBL)",
+  "preis": "",
+  "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100~team_id-151.html",
+  "quelle": "Basketball Löwen"
+ },
+ {
+  "datum": "2026-12-16",
+  "zeit": "20:00",
+  "titel": "Basketball: Löwen Braunschweig – Alba Berlin",
+  "ort": "Volkswagen Halle Braunschweig, Europaplatz 1",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · Basketball-Bundesliga (BBL)",
+  "preis": "",
+  "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100~team_id-151.html",
+  "quelle": "Basketball Löwen"
+ },
+ {
+  "datum": "2026-12-20",
+  "zeit": "18:00",
+  "titel": "Basketball: Löwen Braunschweig – ratiopharm Ulm",
+  "ort": "Volkswagen Halle Braunschweig, Europaplatz 1",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · Basketball-Bundesliga (BBL)",
+  "preis": "",
+  "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100~team_id-151.html",
+  "quelle": "Basketball Löwen"
+ }
+]
 ✓ MTV Braunschweig Handball: 11
 [
  {
   "datum": "2026-11-14",
   "zeit": "19:30",
-  "titel": "Handball: MTV Braunschweig – Nhv Concordia Delitzsch",
+  "titel": "Handball: MTV Braunschweig – NHV Concordia Delitzsch",
   "ort": "Sporthalle Alte Waage, Braunschweig",
   "sparte": "Sport",
   "hinweis": "Heimspiel · 3. Liga Männer",
@@ -16,7 +72,7 @@
  {
   "datum": "2026-12-04",
   "zeit": "19:30",
-  "titel": "Handball: MTV Braunschweig – Ehv Aue",
+  "titel": "Handball: MTV Braunschweig – EHV Aue",
   "ort": "Volkswagen Halle Braunschweig, Europaplatz 1",
   "sparte": "Sport",
   "hinweis": "Heimspiel · 3. Liga Männer",
@@ -27,7 +83,7 @@
  {
   "datum": "2026-12-19",
   "zeit": "19:30",
-  "titel": "Handball: MTV Braunschweig – FÜCHSE BERLIN Reinickendorf II",
+  "titel": "Handball: MTV Braunschweig – Füchse Berlin Reinickendorf Ii",
   "ort": "Sporthalle Alte Waage, Braunschweig",
   "sparte": "Sport",
   "hinweis": "Heimspiel · 3. Liga Männer",
@@ -38,7 +94,7 @@
  {
   "datum": "2027-01-23",
   "zeit": "19:30",
-  "titel": "Handball: MTV Braunschweig – Hg Hamburg-Barmbek",
+  "titel": "Handball: MTV Braunschweig – HG Hamburg-barmbek",
   "ort": "Sporthalle Alte Waage, Braunschweig",
   "sparte": "Sport",
   "hinweis": "Heimspiel · 3. Liga Männer",
@@ -49,7 +105,7 @@
  {
   "datum": "2027-01-30",
   "zeit": "19:30",
-  "titel": "Handball: MTV Braunschweig – Hsg Eider Harde",
+  "titel": "Handball: MTV Braunschweig – HSG Eider Harde",
   "ort": "Sporthalle Alte Waage, Braunschweig",
   "sparte": "Sport",
   "hinweis": "Heimspiel · 3. Liga Männer",
