@@ -1,16 +1,61 @@
-https://www.braunschweig.de/literaturzentrum/ -> 200 https://www.braunschweig.de/literaturzentrum/
-  PDFs: []
-  Links: ['/literaturzentrum/aktuelles/Schwarz_auf_Weiss_online_/Aktuelles.php', '/literaturzentrum/barrierefreiheit_barriere-melden.php', '/literaturzentrum/braunschweiger-literaturzeit/index.php', '/literaturzentrum/braunschweiger-literaturzeit/programm-2026.php', '/literaturzentrum/datenschutz.php', '/literaturzentrum/ekomm.php', '/literaturzentrum/foerderer/index.php', '/literaturzentrum/fsj-kultur/fsj-kultur.php', '/literaturzentrum/impressum.php', '/literaturzentrum/index.php', '/literaturzentrum/index.php.media/412830/newsletter_emblem.png.scaled/a43df892fb5952c9d08dc13fbfb9851e.png', '/literaturzentrum/kontakt.php', '/literaturzentrum/literaturadressen/antiquariate.php', '/literaturzentrum/literaturadressen/bibliotheken.php', '/literaturzentrum/literaturadressen/index.php', '/literaturzentrum/literaturadressen/kooperationspartner-innen.php', '/literaturzentrum/literaturpreis/Vergaberichtlinien.php', '/literaturzentrum/literaturpreis/alle-preistraeger.php', '/literaturzentrum/literaturpreis/geschichte.php', '/literaturzentrum/literaturpreis/index.php', '/literaturzentrum/literaturpreise/friedrich-gerstaecker-preis.php', '/literaturzentrum/literaturpreise/index.php', '/literaturzentrum/literaturpreise/weitere-preise.php', '/literaturzentrum/medien/Raabe-Haus_Logo_neu.jpg.scaled/73bceef647381e8fd6e629514d4ecd8d.jpg', '/literaturzentrum/museum/anekdoten.php', '/literaturzentrum/museum/das-werk.php', '/literaturzentrum/museum/der-schriftsteller.php', '/literaturzentrum/museum/ein-blick-ins-raabe-haus.php', '/literaturzentrum/museum/index.php', '/literaturzentrum/museum/raabe-haus-katalog.php', '/literaturzentrum/museum/raabe-in-braunschweig.php', '/literaturzentrum/museum/zeichnungen.php', '/literaturzentrum/programm/index.php', '/literaturzentrum/programm/karteninformationen.php', '/literaturzentrum/programm/kooperationspartner.php', '/literaturzentrum/programm/programmheft_495899_504903.php', '/literaturzentrum/programm/schwarz-auf-weiss-online.php', '/literaturzentrum/projekte/auf-den-punkt-gebracht.php', '/literaturzentrum/projekte/comics.php', '/literaturzentrum/projekte/georg-oswald-cott.php']
-https://www.braunschweig.de/literaturzentrum/programm/ -> 200 https://www.braunschweig.de/literaturzentrum/programm/
-  PDFs: []
-  Links: ['/literaturzentrum/aktuelles/Schwarz_auf_Weiss_online_/Aktuelles.php', '/literaturzentrum/barrierefreiheit_barriere-melden.php', '/literaturzentrum/braunschweiger-literaturzeit/index.php', '/literaturzentrum/datenschutz.php', '/literaturzentrum/ekomm.php', '/literaturzentrum/foerderer/index.php', '/literaturzentrum/fsj-kultur/fsj-kultur.php', '/literaturzentrum/impressum.php', '/literaturzentrum/index.php', '/literaturzentrum/kontakt.php', '/literaturzentrum/literaturadressen/index.php', '/literaturzentrum/literaturpreis/index.php', '/literaturzentrum/literaturpreise/index.php', '/literaturzentrum/medien/header/programm.jpg.scaled/6ec9a20cfe2e2890a0f7c6de3ea834d9.jpg', '/literaturzentrum/museum/index.php', '/literaturzentrum/programm/index.php', '/literaturzentrum/programm/karteninformationen.php', '/literaturzentrum/programm/kooperationspartner.php', '/literaturzentrum/programm/programmheft_495899_504903.php', '/literaturzentrum/programm/schwarz-auf-weiss-online.php', '/literaturzentrum/projekte/projekte.php']
-https://www.braunschweig.de/literaturzentrum/programm/index.php -> 200 https://www.braunschweig.de/literaturzentrum/programm/index.php
-  PDFs: []
-  Links: ['/literaturzentrum/aktuelles/Schwarz_auf_Weiss_online_/Aktuelles.php', '/literaturzentrum/barrierefreiheit_barriere-melden.php', '/literaturzentrum/braunschweiger-literaturzeit/index.php', '/literaturzentrum/datenschutz.php', '/literaturzentrum/ekomm.php', '/literaturzentrum/foerderer/index.php', '/literaturzentrum/fsj-kultur/fsj-kultur.php', '/literaturzentrum/impressum.php', '/literaturzentrum/index.php', '/literaturzentrum/kontakt.php', '/literaturzentrum/literaturadressen/index.php', '/literaturzentrum/literaturpreis/index.php', '/literaturzentrum/literaturpreise/index.php', '/literaturzentrum/medien/header/programm.jpg.scaled/6ec9a20cfe2e2890a0f7c6de3ea834d9.jpg', '/literaturzentrum/museum/index.php', '/literaturzentrum/programm/index.php', '/literaturzentrum/programm/karteninformationen.php', '/literaturzentrum/programm/kooperationspartner.php', '/literaturzentrum/programm/programmheft_495899_504903.php', '/literaturzentrum/programm/schwarz-auf-weiss-online.php', '/literaturzentrum/projekte/projekte.php']
-https://www.braunschweig.de/raabe-haus -> 404 https://www.braunschweig.de/raabe-haus
-  PDFs: []
-  Links: []
-https://www.braunschweig.de/literaturzentrum/index.php -> 200 https://www.braunschweig.de/literaturzentrum/index.php
-  PDFs: []
-  Links: ['/literaturzentrum/aktuelles/Schwarz_auf_Weiss_online_/Aktuelles.php', '/literaturzentrum/barrierefreiheit_barriere-melden.php', '/literaturzentrum/braunschweiger-literaturzeit/index.php', '/literaturzentrum/braunschweiger-literaturzeit/programm-2026.php', '/literaturzentrum/datenschutz.php', '/literaturzentrum/ekomm.php', '/literaturzentrum/foerderer/index.php', '/literaturzentrum/fsj-kultur/fsj-kultur.php', '/literaturzentrum/impressum.php', '/literaturzentrum/index.php', '/literaturzentrum/index.php.media/412830/newsletter_emblem.png.scaled/a43df892fb5952c9d08dc13fbfb9851e.png', '/literaturzentrum/kontakt.php', '/literaturzentrum/literaturadressen/antiquariate.php', '/literaturzentrum/literaturadressen/bibliotheken.php', '/literaturzentrum/literaturadressen/index.php', '/literaturzentrum/literaturadressen/kooperationspartner-innen.php', '/literaturzentrum/literaturpreis/Vergaberichtlinien.php', '/literaturzentrum/literaturpreis/alle-preistraeger.php', '/literaturzentrum/literaturpreis/geschichte.php', '/literaturzentrum/literaturpreis/index.php', '/literaturzentrum/literaturpreise/friedrich-gerstaecker-preis.php', '/literaturzentrum/literaturpreise/index.php', '/literaturzentrum/literaturpreise/weitere-preise.php', '/literaturzentrum/medien/Raabe-Haus_Logo_neu.jpg.scaled/73bceef647381e8fd6e629514d4ecd8d.jpg', '/literaturzentrum/museum/anekdoten.php', '/literaturzentrum/museum/das-werk.php', '/literaturzentrum/museum/der-schriftsteller.php', '/literaturzentrum/museum/ein-blick-ins-raabe-haus.php', '/literaturzentrum/museum/index.php', '/literaturzentrum/museum/raabe-haus-katalog.php', '/literaturzentrum/museum/raabe-in-braunschweig.php', '/literaturzentrum/museum/zeichnungen.php', '/literaturzentrum/programm/index.php', '/literaturzentrum/programm/karteninformationen.php', '/literaturzentrum/programm/kooperationspartner.php', '/literaturzentrum/programm/programmheft_495899_504903.php', '/literaturzentrum/programm/schwarz-auf-weiss-online.php', '/literaturzentrum/projekte/auf-den-punkt-gebracht.php', '/literaturzentrum/projekte/comics.php', '/literaturzentrum/projekte/georg-oswald-cott.php']
-https://www.braunschweig.de/literaturzentrum/programm/Veranstaltungsblatt-2-26.pdf -> 200 1292585
+✓ Basketball Löwen (BBL): 0
+[]
+✓ MTV Braunschweig Handball: 11
+[
+ {
+  "datum": "2026-11-14",
+  "zeit": "19:30",
+  "titel": "Handball: MTV Braunschweig – Nhv Concordia Delitzsch",
+  "ort": "Sporthalle Alte Waage, Braunschweig",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · 3. Liga Männer",
+  "preis": "",
+  "url": "https://www.handball.net/team/63819",
+  "quelle": "MTV Handball"
+ },
+ {
+  "datum": "2026-12-04",
+  "zeit": "19:30",
+  "titel": "Handball: MTV Braunschweig – Ehv Aue",
+  "ort": "Volkswagen Halle Braunschweig, Europaplatz 1",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · 3. Liga Männer",
+  "preis": "",
+  "url": "https://www.handball.net/team/63819",
+  "quelle": "MTV Handball"
+ },
+ {
+  "datum": "2026-12-19",
+  "zeit": "19:30",
+  "titel": "Handball: MTV Braunschweig – FÜCHSE BERLIN Reinickendorf II",
+  "ort": "Sporthalle Alte Waage, Braunschweig",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · 3. Liga Männer",
+  "preis": "",
+  "url": "https://www.handball.net/team/63819",
+  "quelle": "MTV Handball"
+ },
+ {
+  "datum": "2027-01-23",
+  "zeit": "19:30",
+  "titel": "Handball: MTV Braunschweig – Hg Hamburg-Barmbek",
+  "ort": "Sporthalle Alte Waage, Braunschweig",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · 3. Liga Männer",
+  "preis": "",
+  "url": "https://www.handball.net/team/63819",
+  "quelle": "MTV Handball"
+ },
+ {
+  "datum": "2027-01-30",
+  "zeit": "19:30",
+  "titel": "Handball: MTV Braunschweig – Hsg Eider Harde",
+  "ort": "Sporthalle Alte Waage, Braunschweig",
+  "sparte": "Sport",
+  "hinweis": "Heimspiel · 3. Liga Männer",
+  "preis": "",
+  "url": "https://www.handball.net/team/63819",
+  "quelle": "MTV Handball"
+ }
+]
+
