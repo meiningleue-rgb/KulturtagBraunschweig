@@ -1,6 +1,6 @@
 # Kulturtag Braunschweig
 
-Tagesübersicht kultureller Veranstaltungen in Braunschweig – Theater, Konzerte, Kino, Lesungen, Vorträge, Ausstellungen – aus 17 Quellen zusammengeführt – dazu Heimspiele von Basketball Löwen (BBL) und MTV Braunschweig Handball (3. Liga), Dubletten zusammengelegt.
+Tagesübersicht kultureller Veranstaltungen in Braunschweig – Theater, Konzerte, Kino, Lesungen, Vorträge, Ausstellungen, dazu Heimspiele von Basketball Löwen (BBL) und MTV Braunschweig Handball (3. Liga) – aus 17 Quellen zusammengeführt, Dubletten zusammengelegt.
 
 **Seite:** wird über GitHub Pages veröffentlicht (Adresse unter *Settings → Pages*) und ist mit einem Passwort geschützt (StatiCrypt; „Auf diesem Gerät merken“ ist vorbelegt, in der entschlüsselten Seite gibt es außerdem einen „Zugangslink“, der ohne Passworteingabe öffnet). Das Passwort steht als Repository-Geheimnis `KULTURTAG_PASSWORT` unter *Settings → Secrets and variables → Actions*; nach einer Änderung einmal „Run workflow“ ausführen. Auf dem iPhone in Safari öffnen → Teilen → „Zum Home-Bildschirm“, dann verhält sie sich wie eine App. Die Merkliste wird pro Gerät gespeichert.
 
