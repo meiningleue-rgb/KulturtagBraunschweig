@@ -27,23 +27,37 @@ def _holen(url):
 def basketball(start, ende):
     seite = _holen(BASKETBALL_URL)
     out = []
-    for zeile in re.findall(r"<tr>(.*?)</tr>", seite, re.S):
-        d = re.search(r"-date\">\s*(\d{2})\.(\d{2})\.(\d{4})", zeile)
-        z = re.search(r"-time\">\s*(\d{1,2}:\d{2})", zeile)
-        heim = re.search(r'-teamName -home" title="([^"]+)"', zeile)
-        gast = re.search(r'-teamName -visitor" title="([^"]+)"', zeile)
-        if not (d and heim and gast) or "Braunschweig" not in heim.group(1):
+    for zeile in re.findall(r"<tr\b[^>]*>(.*?)</tr>", seite, re.S):
+        d = re.search(r"(\d{2})\.(\d{2})\.(\d{4})", zeile)
+        z = re.search(r"-time[^>]*>\s*(\d{1,2}:\d{2})", zeile)
+        teams = {}
+        for tag in re.findall(r"<abbr\b[^>]*>", zeile):
+            kl, ti = re.search(r'class="([^"]*)"', tag), re.search(r'title="([^"]*)"', tag)
+            if kl and ti:
+                teams["heim" if "-home" in kl.group(1) else "gast" if "-visitor" in kl.group(1) else "x"] = ti.group(1)
+        heim, gast = teams.get("heim"), teams.get("gast")
+        if not (d and heim and gast) or "Braunschweig" not in heim:
             continue
         datum = f"{d.group(3)}-{d.group(2)}-{d.group(1)}"
         if not (start <= datum <= ende):
             continue
         out.append({"datum": datum, "zeit": z.group(1).zfill(5) if z else "",
-                    "titel": f"Basketball: {html.unescape(heim.group(1))} – {html.unescape(gast.group(1))}",
+                    "titel": f"Basketball: {html.unescape(heim)} – {html.unescape(gast)}",
                     "ort": BASKETBALL_HALLE, "sparte": "Sport", "hinweis": "Heimspiel · Basketball-Bundesliga (BBL)", "preis": "",
                     "url": BASKETBALL_URL, "quelle": "Basketball Löwen"})
     if not re.search(r"teamResults", seite):
         raise RuntimeError("Spielplan-Tabelle nicht gefunden")
     return out
+
+
+def _name(n):
+    """„NHV CONCORDIA DELITZSCH“ → „NHV Concordia Delitzsch“ (Kürzel mit Konsonanten bleiben groß)."""
+    w = []
+    for t in n.split():
+        if t.isupper() and not (len(t) <= 3 and re.search(r"[^AEIOUÄÖÜ]", t)):
+            t = t.capitalize()
+        w.append(t)
+    return " ".join(w)
 
 
 def _halle(name):
@@ -75,7 +89,7 @@ def handball(start, ende):
             continue
         liga = ((s.get("phase") or {}).get("competition") or {}).get("name", "Handball")
         abgesagt = (s.get("status") or {}).get("short_name") in ("SUS", "CAN", "APL")
-        out.append({"datum": datum, "zeit": zeit, "titel": f"Handball: {heim} – {gast.title() if gast.isupper() else gast}",
+        out.append({"datum": datum, "zeit": zeit, "titel": f"Handball: {_name(heim)} – {_name(gast)}",
                     "ort": _halle((s.get("field") or {}).get("name")), "sparte": "Sport",
                     "hinweis": "ABGESAGT" if abgesagt else f"Heimspiel · {liga}", "preis": "",
                     "url": HANDBALL_URL, "quelle": "MTV Handball"})
