@@ -1,13 +1,13 @@
 # Kulturtag Braunschweig – was hier gebaut wurde
 
-*Stand: 30.10.2026*
+*Stand: 31.10.2026*
 
 Stell dir einen fleißigen Praktikanten vor, der zweimal pro Woche alle Kulturprogramme Braunschweigs abklappert, alles auf einen Zettel schreibt, Doppeltes streicht und den Zettel in einen abgeschlossenen Schaukasten hängt. Genau das passiert hier – nur ohne Kaffeepausen.
 
 ## Die Bausteine
 
-### 1. Die Quellen (15)
-Stadtkalender (die-region.de), Staatstheater, Kinos (über filmstarts.de: Astor, Universum, Roter Saal, SchunterKino), Filmfestival BIFF, mvp.de, Brunsviga, westand, Schön & Frölich, Initiative Jazz, Das KULT, TU Braunschweig, HBK, Haus der Wissenschaft (Sammelkalender der Forschungseinrichtungen), Kulturkalender Schloss (Roter Saal, Stadtbibliothek, Museen) und Raabe-Haus.
+### 1. Die Quellen (17)
+Stadtkalender (die-region.de), Staatstheater, Kinos (über filmstarts.de: Astor, Universum, Roter Saal, SchunterKino), Filmfestival BIFF, mvp.de, Brunsviga, westand, Schön & Frölich, Initiative Jazz, Das KULT, TU Braunschweig, HBK, Haus der Wissenschaft (Sammelkalender der Forschungseinrichtungen), Kulturkalender Schloss (Roter Saal, Stadtbibliothek, Museen) und Raabe-Haus. Dazu als Sport die Heimspiele der Basketball Löwen (Bundesliga, über hessenschau.de) und des MTV Braunschweig im Handball (3. Liga, über handball.net) – Sparte „Sport“.
 
 Jede Quelle ist anders aufgebaut, deshalb gibt es für jede ein kleines eigenes Leseprogramm in `tools/extractors.js`. Zwei Quellen gibt es nur als PDF; dafür gibt es eigene PDF-Leser: `tools/roter_saal.py` (Kulturkalender Schloss) und `tools/raabe_haus.py` (Veranstaltungsblatt des Raabe-Hauses).
 
@@ -26,10 +26,14 @@ Viele Programmseiten bauen sich erst im Browser zusammen. Der Roboter startet de
 - **Ausfallsicherung:** Fällt eine Quelle aus, wird ihr letzter Stand genommen. Im Kasten „Abrufstand“ steht dann „älterer Abruf“.
 
 ### 5. Die Seite
-Eine einzige Datei mit Tagesleiste, Suche über mehrere Tage (Stichwort, Ort, Musikrichtung), Sparten- und Zeitfiltern und einer Merkliste. Die Merkliste speichert jedes Gerät für sich.
+Eine einzige Datei mit Tagesleiste, Suche über mehrere Tage (Stichwort, Ort), Sparten (mehrere gleichzeitig wählbar, die Auswahl merkt sich das Gerät), Zeitfiltern und einer Merkliste. Merkliste und Spartenauswahl speichert jedes Gerät für sich.
 
 ### 6. Das Schloss (StatiCrypt)
-Bevor die Seite online geht, wird sie mit dem Passwort verschlüsselt. Im Netz liegt nur unlesbarer Text plus ein Passwortfeld; erst der Browser entschlüsselt die Seite nach Eingabe des Passworts. „Auf diesem Gerät merken“ hält 90 Tage. Das Passwort liegt als *Geheimnis* bei GitHub und ist dort nicht auslesbar.
+Bevor die Seite online geht, wird sie mit dem Passwort verschlüsselt. Im Netz liegt nur unlesbarer Text plus ein Passwortfeld; erst der Browser entschlüsselt die Seite nach Eingabe des Passworts. „Auf diesem Gerät merken“ ist vorbelegt und hält 90 Tage.
+
+**Zugangslink:** In der entschlüsselten Seite gibt es links den Kasten „Ohne Passwort öffnen“. Der Link darin enthält den Schlüssel (nicht das Passwort selbst, sondern einen daraus berechneten Wert). Wer ihn öffnet, sieht die Seite sofort. Am iPhone: Link in Safari öffnen → Teilen → „Zum Home-Bildschirm“ – dann fragt die Seite nie wieder. Der Link ist so viel wert wie das Passwort; nach einer Passwortänderung funktioniert er nicht mehr.
+
+Warum sich das Passwort sonst manchmal nicht merken lässt: Das „Merken“ speichert im Browser des Geräts. Privates Surfen, das Löschen von Websitedaten oder Links, die in App-internen Browsern (z. B. aus WhatsApp oder Mail) öffnen, vergessen es wieder. Und auf dem iPhone hat ein Symbol auf dem Home-Bildschirm einen eigenen Speicher, getrennt von Safari – dort muss man sich einmal extra anmelden (oder eben den Zugangslink verwenden). Das Passwort liegt als *Geheimnis* bei GitHub und ist dort nicht auslesbar.
 
 Wichtig: Weil sich jeder die verschlüsselte Datei herunterladen und offline raten kann, sollte das Passwort lang sein (ein Satz aus 4–5 Wörtern).
 
@@ -54,6 +58,7 @@ GitHub schaltet Zeitpläne in öffentlichen Repositories ab, wenn dort 60 Tage n
 
 - **Eine Quelle baut ihre Webseite um** → sie liefert nichts mehr, ihr alter Stand läuft langsam aus („älterer Abruf“ im Abrufstand). Dann muss ihr Leseprogramm angepasst werden.
 - **Ein neues Programmheft-PDF liegt an anderer Stelle** → dasselbe.
+- **Neue Sportsaison:** Die Handball-Kennung (`63819`) in `tools/sport.py` gilt für 2026/27; bei Ligawechsel oder neuer Saison prüfen. Basketball folgt der Saison automatisch, solange hessenschau.de die Seite gleich aufbaut.
 - **BIFF:** Die Ausgabe-Nummer (2026 = 40) in `tools/extractors.js` muss jährlich hochgezählt werden.
 - **Ein Lauf schlägt fehl** → GitHub schickt eine Mail; die Seite bleibt mit dem letzten Stand online.
 

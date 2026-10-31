@@ -34,13 +34,13 @@ SPARTEN = [
     ("Musik", r"konzert|band|tour|jazz|blues|live|quartett|trio|orchester|klavier|lieder|sänger|musik|singt|rock|pop"),
 ]
 NICHT_KULTUR = re.compile(
-    r"kürbisscheune|beratung|hausnotruf|bark date|basketball|eintracht|kicker|krimi-?dinner|3d krimi|dinner-musical|"
+    r"kürbisscheune|beratung|hausnotruf|bark date|basketball|handball|eintracht|kicker|krimi-?dinner|3d krimi|dinner-musical|"
     r"barhopping|martinsmarkt|basar|suppentag|\bnlp\b|flickwerkstatt|spieltagscamp|hausautomation|party\b|"
     r"dauerausstellung|stadtrundfahrt|tag der offenen tür|markt der möglichkeiten|telefonberatung|igelschutz|"
     r"tasting|yoga|lampionfahrt|ü30|ü60|festival of lights: ein stadtspaziergang|afterwork-stadtspaziergang|"
     r"stadtspaziergang in der löwenstadt|friedensmeditation|after the lights|ersti session|linux basics|bioinformatics", re.I)
 VORRANG = {"Staatstheater": 0, "Brunsviga": 0, "westand": 0, "Schön & Frölich": 0, "Jazz Braunschweig": 0,
-           "Kulturkalender Schloss": 0, "Graff": 0, "Das KULT": 0, "HBK": 0, "BIFF": 0, "Raabe-Haus": 0, "Haus der Wissenschaft": 1, "TU-Kalender": 1, "Stadtkalender": 2, "filmstarts.de": 3, "mvp.de": 4}
+           "Kulturkalender Schloss": 0, "Graff": 0, "Das KULT": 0, "HBK": 0, "BIFF": 0, "Raabe-Haus": 0, "Basketball Löwen": 0, "MTV Handball": 0, "Haus der Wissenschaft": 1, "TU-Kalender": 1, "Stadtkalender": 2, "filmstarts.de": 3, "mvp.de": 4}
 # Spielstätten-Quellen: Sparte, wenn sich aus dem Titel nichts ableiten lässt
 STANDARD_SPARTE = {"Brunsviga": "Kleinkunst & Comedy", "westand": "Musik", "Schön & Frölich": "Musik", "Jazz Braunschweig": "Musik",
                    "Graff": "Literatur & Bibliothek", "Raabe-Haus": "Literatur & Bibliothek", "Das KULT": "Bühne",
@@ -105,7 +105,7 @@ def ort_gleich(a, b):
 def zusammenfuehren(roh, start, ende):
     termine, laufend = [], []
     for e in roh:
-        if not e.get("titel") or NICHT_KULTUR.search(e["titel"] + " " + e.get("ort", "")):
+        if not e.get("titel") or (e.get("sparte") != "Sport" and NICHT_KULTUR.search(e["titel"] + " " + e.get("ort", ""))):
             continue
         e = {k: (v.strip() if isinstance(v, str) else v) for k, v in e.items()}
         e["sparte"] = sparte_raten(e)
@@ -241,7 +241,7 @@ def seite_bauen(tage, laufend, stand, ziel):
 QUELLNAMEN = {"stadtkalender": "Stadtkalender", "tu": "TU Braunschweig", "staatstheater": "Staatstheater", "mvp": "mvp.de",
               "kinos": "Kinos (filmstarts.de)", "biff": "BIFF – Filmfestival", "brunsviga": "Brunsviga", "westand": "westand",
               "schoenfroelich": "Schön & Frölich", "jazzbs": "Initiative Jazz", "daskult": "Das KULT",
-              "hausderwissenschaft": "Haus der Wissenschaft", "hbk": "HBK", "kulturkalender-schloss": "Kulturkalender Schloss (PDF)", "raabe-haus": "Raabe-Haus (PDF)"}
+              "hausderwissenschaft": "Haus der Wissenschaft", "hbk": "HBK", "kulturkalender-schloss": "Kulturkalender Schloss (PDF)", "raabe-haus": "Raabe-Haus (PDF)", "basketball": "Basketball Löwen (BBL)", "handball": "MTV Braunschweig Handball"}
 
 
 def github_lauf(repo, start, ende, stand, sichtbar=False, ohne_abruf=False):
@@ -255,20 +255,22 @@ def github_lauf(repo, start, ende, stand, sichtbar=False, ohne_abruf=False):
             namen[qid] = name
             if daten:
                 (rohdir / f"{qid}.json").write_text(json.dumps(daten, ensure_ascii=False, indent=0), encoding="utf-8")
-    # Quellen, die es nur als PDF gibt: eigene Leser (brauchen pdftotext)
+    # Quellen ohne Browser: PDF-Leser (brauchen pdftotext) und Sport-Spielpläne
     if not ohne_abruf:
-        import roter_saal, raabe_haus
-        for qid, name, modul in (("kulturkalender-schloss", "Kulturkalender Schloss", roter_saal), ("raabe-haus", "Raabe-Haus", raabe_haus)):
+        import roter_saal, raabe_haus, sport
+        weitere = [("kulturkalender-schloss", "Kulturkalender Schloss", roter_saal.abrufen), ("raabe-haus", "Raabe-Haus", raabe_haus.abrufen)]
+        weitere += [(qid, name, (lambda f=f: f(start, ende))) for qid, name, f in sport.QUELLEN]
+        for qid, name, holen in weitere:
             try:
-                daten = modul.abrufen()
+                daten = holen()
                 if daten:
                     (rohdir / f"{qid}.json").write_text(json.dumps(daten, ensure_ascii=False, indent=0), encoding="utf-8")
                 abrufen.je_quelle[qid] = (name, daten or None)
-                print(f"  ✓ {name} (PDF): {len(daten)} Einträge")
+                print(f"  ✓ {name}: {len(daten)} Einträge")
             except Exception as ex:
                 abrufen.je_quelle[qid] = (name, None)
                 namen[qid] = name
-                print(f"  ✗ {name} (PDF): {str(ex)[:120]}")
+                print(f"  ✗ {name}: {str(ex)[:120]}")
     roh = []
     heute_abgerufen = set() if ohne_abruf else {q for q, (_, d) in abrufen.je_quelle.items() if d}
     for f in sorted(rohdir.glob("*.json")):

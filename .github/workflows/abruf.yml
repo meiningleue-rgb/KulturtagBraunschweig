@@ -77,6 +77,8 @@ jobs:
             --template-color-primary "#a3241c" \
             --template-color-secondary "#f7f6f4"
           # Anmeldeseite: nicht in Suchmaschinen, Symbol für den Home-Bildschirm
+          # „Auf diesem Gerät merken“ standardmäßig angehakt
+          sed -i 's#<input id="staticrypt-remember" type="checkbox" name="remember" />#<input id="staticrypt-remember" type="checkbox" name="remember" checked />#' _site/index.html
           sed -i 's#<head>#<head><meta name="robots" content="noindex,nofollow"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="Kulturtag">#' _site/index.html
 
       # GitHub schaltet geplante Läufe ab, wenn ein öffentliches Repository 60 Tage ohne Aktivität ist.

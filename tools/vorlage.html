@@ -5,15 +5,15 @@
 /* Layout: Kopf, Tagesleiste (horizontal scrollbar), Seitenleiste mit Filtern + Hauptspalte mit Terminen nach Tageszeit */
 :root{
   --bg:#f7f6f4; --surface:#ffffff; --ink:#1f1b1a; --muted:#5f5855; --line:#e3dfdc; --lion:#a3241c; --lion-ink:#ffffff; --lion-soft:#f6e4e1;
-  --c-buehne:#a3241c; --c-musik:#2f5d8a; --c-klein:#b0540f; --c-kino:#3d3d3d; --c-lit:#7a5a00; --c-wiss:#1f6f5c; --c-kirche:#6a4c93; --c-kinder:#2f7a8a; --c-aus:#7a4a2a;
+  --c-buehne:#a3241c; --c-musik:#2f5d8a; --c-klein:#b0540f; --c-kino:#3d3d3d; --c-lit:#7a5a00; --c-wiss:#1f6f5c; --c-kirche:#6a4c93; --c-kinder:#2f7a8a; --c-aus:#7a4a2a; --c-sport:#4d6b1f;
   --f-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif; --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#171413; --surface:#211d1c; --ink:#efe9e6; --muted:#aaa19d; --line:#3a3331; --lion:#e8786d; --lion-ink:#1a0f0e; --lion-soft:#3a2321;
-  --c-buehne:#e8786d; --c-musik:#7fb0e0; --c-klein:#e9a15f; --c-kino:#c9c4c1; --c-lit:#e0c060; --c-wiss:#6fcbb2; --c-kirche:#b9a0e0; --c-kinder:#79c9d8; --c-aus:#d7a07a; color-scheme:dark}}
+  --c-buehne:#e8786d; --c-musik:#7fb0e0; --c-klein:#e9a15f; --c-kino:#c9c4c1; --c-lit:#e0c060; --c-wiss:#6fcbb2; --c-kirche:#b9a0e0; --c-kinder:#79c9d8; --c-aus:#d7a07a; --c-sport:#a8c96a; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#171413; --surface:#211d1c; --ink:#efe9e6; --muted:#aaa19d; --line:#3a3331; --lion:#e8786d; --lion-ink:#1a0f0e; --lion-soft:#3a2321;
-  --c-buehne:#e8786d; --c-musik:#7fb0e0; --c-klein:#e9a15f; --c-kino:#c9c4c1; --c-lit:#e0c060; --c-wiss:#6fcbb2; --c-kirche:#b9a0e0; --c-kinder:#79c9d8; --c-aus:#d7a07a; color-scheme:dark}
+  --c-buehne:#e8786d; --c-musik:#7fb0e0; --c-klein:#e9a15f; --c-kino:#c9c4c1; --c-lit:#e0c060; --c-wiss:#6fcbb2; --c-kirche:#b9a0e0; --c-kinder:#79c9d8; --c-aus:#d7a07a; --c-sport:#a8c96a; color-scheme:dark}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5}
 .wrap{max-width:1240px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
 header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 32px}
@@ -107,17 +107,21 @@ select{font:inherit;font-size:15px;color:var(--ink);background:var(--surface);bo
         <h2 class="h-side" id="sh" style="margin:0">Suchen über mehrere Tage</h2>
         <div class="field"><label class="h-side" for="q" style="margin:0">Künstler, Titel, Stichwort</label><input id="q" type="search" placeholder="z. B. Jazz, Goosen, Orgel …"></div>
         <div class="field"><label class="h-side" for="ort" style="margin:0">Ort</label><select id="ort"><option value="">Alle Orte</option></select></div>
-        <div class="field"><label class="h-side" for="stil" style="margin:0">Musikrichtung</label><select id="stil"><option value="">Alle Richtungen</option></select></div>
         <div class="field"><span class="h-side" style="margin:0">Zeitraum</span>
           <div class="seg" id="range" role="group" aria-label="Zeitraum der Suche"><button type="button" data-r="7">7 Tage</button><button type="button" data-r="14">14 Tage</button><button type="button" data-r="99" aria-pressed="true">Alle</button></div></div>
         <button type="button" class="linkbtn" id="reset" hidden>Suche zurücksetzen</button>
       </section>
-      <section><h2 class="h-side">Sparten</h2><div id="cats"></div></section>
+      <section><h2 class="h-side">Sparten <span style="text-transform:none;letter-spacing:0">· mehrere wählbar</span></h2><div id="cats"></div></section>
       <section>
         <h2 class="h-side">Filter</h2>
         <label class="chk" for="frei"><input id="frei" type="checkbox">Nur Eintritt frei</label>
         <label class="chk" for="abend"><input id="abend" type="checkbox">Nur ab 18 Uhr</label>
         <label class="chk" for="merk"><input id="merk" type="checkbox">Nur Merkliste</label>
+      </section>
+      <section class="box" id="zugang" hidden>
+        <b>Ohne Passwort öffnen</b>
+        <span>Dieser Link enthält den Schlüssel: einmal öffnen und zum Home-Bildschirm hinzufügen – dann fragt die Seite nicht mehr nach dem Passwort. Nur an Leute weitergeben, die auch das Passwort bekommen dürften.</span>
+        <button type="button" class="linkbtn" id="zugangBtn">Zugangslink teilen</button>
       </section>
       <section class="box" id="stand"><b>Abrufstand</b><span>Wird geladen …</span></section>
     </aside>
@@ -128,13 +132,15 @@ select{font:inherit;font-size:15px;color:var(--ink);background:var(--surface);bo
 <script>
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const CAT = {"Bühne":"--c-buehne","Musik":"--c-musik","Kleinkunst & Comedy":"--c-klein","Kino":"--c-kino","Literatur & Bibliothek":"--c-lit","Wissenschaft & Vortrag":"--c-wiss","Kirchenmusik":"--c-kirche","Kinder & Familie":"--c-kinder","Ausstellung & Führung":"--c-aus"};
+const CAT = {"Bühne":"--c-buehne","Musik":"--c-musik","Kleinkunst & Comedy":"--c-klein","Kino":"--c-kino","Literatur & Bibliothek":"--c-lit","Wissenschaft & Vortrag":"--c-wiss","Kirchenmusik":"--c-kirche","Kinder & Familie":"--c-kinder","Ausstellung & Führung":"--c-aus","Sport":"--c-sport"};
 const WD = ["So","Mo","Di","Mi","Do","Fr","Sa"], WDL = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
 const MON = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
 const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 const today = new Date(); today.setHours(12,0,0,0);
 const todayIso = iso(today);
-let tage = {}, laufend = [], stand = null, sel = todayIso, cat = "alle", range = 99;
+let tage = {}, laufend = [], stand = null, sel = todayIso, range = 99;
+let cats = new Set(); try { cats = new Set(JSON.parse(localStorage.getItem("kt-sparten") || "[]")); } catch(_) {}   // leer = alle Sparten
+const inCat = e => !cats.size || cats.has(e.sparte);
 let saved = {}; try { saved = JSON.parse(localStorage.getItem("kt-merk") || "{}"); } catch(_) {}
 const keyOf = e => e.datum + "|" + (e.zeit||"") + "|" + e.titel;
 const isFree = e => /frei|spende/i.test(e.preis || "");
@@ -169,7 +175,7 @@ const STILE = [
 const isMusic = e => e.sparte === "Musik" || e.sparte === "Kirchenmusik" || /konzert|musik|band|live|tour|chor|orgel/i.test(e.titel + " " + (e.hinweis||""));
 const stileOf = e => { if (e._s) return e._s; const t = `${e.titel} ${e.hinweis||""} ${e.ort||""}`; return (e._s = isMusic(e) ? STILE.filter(([, re]) => re.test(t)).map(([n]) => n) : []); };
 
-const searching = () => !!($("#q").value.trim() || $("#ort").value || $("#stil").value);
+const searching = () => !!($("#q").value.trim() || $("#ort").value);
 const addDays = (s, n) => { const d = new Date(s + "T12:00:00"); d.setDate(d.getDate() + n); return iso(d); };
 function inRange(d){ return range >= 99 || d <= addDays(todayIso, range - 1); }
 
@@ -179,7 +185,6 @@ function filt(e){
   if ($("#abend").checked && !(e.zeit && e.zeit >= "18:00")) return false;
   if ($("#merk").checked && !saved[keyOf(e)]) return false;
   if ($("#ort").value && venueOf(e) !== $("#ort").value) return false;
-  if ($("#stil").value && !stileOf(e).includes($("#stil").value)) return false;
   if (q && !q.split(/\s+/).every(w => [e.titel,e.ort,e.hinweis,e.sparte,venueOf(e),stileOf(e).join(" ")].join(" ").toLowerCase().includes(w))) return false;
   return true;
 }
@@ -187,12 +192,11 @@ function fillSelects(){
   // Auswahllisten mit Anzahl im gewählten Zeitraum (ohne den eigenen Filter)
   const pool = Object.entries(tage).filter(([d]) => inRange(d)).flatMap(([, l]) => l);
   const vc = {}, sc = {};
-  pool.forEach(e => { vc[venueOf(e)] = (vc[venueOf(e)] || 0) + 1; stileOf(e).forEach(s => sc[s] = (sc[s] || 0) + 1); });
-  const ov = $("#ort").value, sv = $("#stil").value;
+  pool.forEach(e => { vc[venueOf(e)] = (vc[venueOf(e)] || 0) + 1; });
+  const ov = $("#ort").value;
   const venues = Object.entries(vc).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "de"));
   $("#ort").innerHTML = `<option value="">Alle Orte (${venues.length})</option>` + venues.map(([n, c]) => `<option value="${esc(n)}"${n===ov?" selected":""}>${esc(n)} · ${c}</option>`).join("")
     + (ov && !vc[ov] ? `<option value="${esc(ov)}" selected>${esc(ov)} · 0</option>` : "");
-  $("#stil").innerHTML = `<option value="">Alle Richtungen</option>` + STILE.map(([n]) => `<option value="${esc(n)}"${n===sv?" selected":""}>${esc(n)} · ${sc[n]||0}</option>`).join("");
 }
 function render(){
   const all = Object.keys(tage).sort();
@@ -206,19 +210,18 @@ function render(){
   const days = []; for (let d = new Date(today); iso(d) <= end && days.length < 28; d.setDate(d.getDate()+1)) days.push(new Date(d));
   if (!days.length) days.push(new Date(today));
   $("#days").innerHTML = days.map(d => {
-    const k = iso(d), n = (tage[k]||[]).filter(filt).filter(e => cat==="alle" || e.sparte===cat).length, we = d.getDay()===0||d.getDay()===6;
+    const k = iso(d), n = (tage[k]||[]).filter(filt).filter(inCat).length, we = d.getDay()===0||d.getDay()===6;
     const dim = S && (!inRange(k) || !n);
     return `<button type="button" class="day${we?" we":""}${dim?" dim":""}" data-d="${k}" aria-pressed="${!S && k===sel}"><span class="wd">${k===todayIso?"Heute":WD[d.getDay()]}</span><span class="num">${d.getDate()}.${d.getMonth()+1}.</span><span class="cnt">${n} Termine</span></button>`;
   }).join("");
   const dayLabel = k => { const sd = new Date(k+"T12:00:00"); return (k===todayIso?"Heute, ":"") + WDL[sd.getDay()] + " " + sd.getDate() + ". " + MON[sd.getMonth()]; };
   const scopeDays = S ? all.filter(inRange) : [sel];
   const scopeEv = scopeDays.flatMap(k => (tage[k]||[]).filter(filt));
-  const shown = scopeEv.filter(e => cat==="alle" || e.sparte===cat);
-  const parts = [$("#q").value.trim() && `„${$("#q").value.trim()}“`, $("#ort").value, $("#stil").value].filter(Boolean);
+  const shown = scopeEv.filter(inCat);
+  const parts = [$("#q").value.trim() && `„${$("#q").value.trim()}“`, $("#ort").value].filter(Boolean);
   $("#dayTitle").textContent = S ? `Suche: ${parts.join(" · ")}` : dayLabel(sel);
-  const cats = Object.keys(CAT);
-  $("#cats").innerHTML = [["alle","Alle Sparten",scopeEv.length]].concat(cats.map(c => [c,c,scopeEv.filter(e=>e.sparte===c).length]))
-    .map(([id,l,n]) => `<button type="button" class="cat" data-c="${esc(id)}" aria-pressed="${id===cat}"><span class="dot" style="background:${id==="alle"?"var(--ink)":`var(${CAT[id]})`}"></span>${esc(l)}<span class="n">${n}</span></button>`).join("");
+  $("#cats").innerHTML = [["alle","Alle Sparten",scopeEv.length]].concat(Object.keys(CAT).map(c => [c,c,scopeEv.filter(e=>e.sparte===c).length]))
+    .map(([id,l,n]) => `<button type="button" class="cat" data-c="${esc(id)}" aria-pressed="${id==="alle" ? !cats.size : cats.has(id)}"><span class="dot" style="background:${id==="alle"?"var(--ink)":`var(${CAT[id]})`}"></span>${esc(l)}<span class="n">${n}</span></button>`).join("");
   const lastDay = scopeDays.length ? scopeDays[scopeDays.length-1] : sel;
   const run = laufend.filter(x => (S ? (x.von <= lastDay && x.bis >= todayIso) : (x.von <= sel && x.bis >= sel)) && filt({...x, zeit:"", hinweis:""}));
   const total = Object.values(tage).reduce((a,l)=>a+l.length,0);
@@ -247,9 +250,9 @@ function render(){
     if (!shown.length) html = `<p class="empty">Keine Treffer in diesem Zeitraum. Probier einen anderen Begriff, „Alle“ beim Zeitraum oder lockere die Filter.</p>`;
   } else {
     html = groups.map(([l,f]) => { const it = shown.filter(f); return it.length ? `<section><h2 class="blk">${l} <span>${it.length}</span></h2>${it.map(card).join("")}</section>` : ""; }).join("");
-    if (!shown.length && !run.some(x => cat==="alle" || x.sparte===cat)) html = `<p class="empty">${(tage[sel]||[]).length ? "Für diese Auswahl gibt es keine Termine. Probier eine andere Sparte oder lockere die Filter." : "Für diesen Tag liegen noch keine Termine vor."}</p>`;
+    if (!shown.length && !run.some(inCat)) html = `<p class="empty">${(tage[sel]||[]).length ? "Für diese Auswahl gibt es keine Termine. Probier eine andere Sparte oder lockere die Filter." : "Für diesen Tag liegen noch keine Termine vor."}</p>`;
   }
-  const runShown = run.filter(x => cat==="alle" || x.sparte===cat);
+  const runShown = run.filter(inCat);
   if (runShown.length) html += `<section class="run"><h2 class="blk">${S?"Läuft in diesem Zeitraum":"Läuft an diesem Tag"} <span>${runShown.length}</span></h2>${runShown.map(x=>`<article class="ev"><div style="min-width:0;display:grid;gap:2px"><div><span class="tag" style="background:var(${CAT[x.sparte]||"--c-aus"})">${esc(x.sparte)}</span></div><h3>${esc(x.titel)}</h3><div class="meta">${esc(x.ort)}${x.preis?" · "+esc(x.preis):""}</div><div class="hint">bis ${x.bis.slice(8,10)}.${x.bis.slice(5,7)}.${x.bis.slice(0,4)}</div><div class="src">Quelle: <a href="${esc(x.quelle_url)}" target="_blank" rel="noopener">${esc(x.quelle)}</a></div></div></article>`).join("")}</section>`;
   $("#main").innerHTML = html;
   if (stand) $("#stand").innerHTML = `<b>Abrufstand</b><span>Gelesen:</span><ul>${(stand.gelesen||[]).map(s=>`<li>${esc(s)}</li>`).join("")}</ul>${stand.offen?.length?`<span>Noch nicht erreichbar:</span><ul>${stand.offen.map(s=>`<li>${esc(s)}</li>`).join("")}</ul>`:""}`;
@@ -259,11 +262,36 @@ $("#days").addEventListener("click", e => {
   if (searching()) { const s = document.getElementById("d-" + b.dataset.d); if (s) s.scrollIntoView({behavior:"smooth", block:"start"}); return; }
   sel = b.dataset.d; render();
 });
-$("#cats").addEventListener("click", e => { const b = e.target.closest(".cat"); if (b){ cat = b.dataset.c; render(); }});
+$("#cats").addEventListener("click", e => {
+  const b = e.target.closest(".cat"); if (!b) return;
+  const c = b.dataset.c;
+  if (c === "alle") cats.clear(); else if (cats.has(c)) cats.delete(c); else cats.add(c);
+  if (cats.size === Object.keys(CAT).length) cats.clear();          // alles gewählt = alle
+  try { localStorage.setItem("kt-sparten", JSON.stringify([...cats])); } catch(_) {}
+  render();
+});
 $("#range").addEventListener("click", e => { const b = e.target.closest("button"); if (b){ range = +b.dataset.r; render(); }});
-$("#reset").addEventListener("click", () => { $("#q").value = ""; $("#ort").value = ""; $("#stil").value = ""; render(); $("#q").focus(); });
+$("#reset").addEventListener("click", () => { $("#q").value = ""; $("#ort").value = ""; render(); $("#q").focus(); });
 $("#main").addEventListener("click", e => { const b = e.target.closest(".save"); if (!b) return; const k = b.dataset.k; if (saved[k]) delete saved[k]; else saved[k] = 1; try { localStorage.setItem("kt-merk", JSON.stringify(saved)); } catch(_) {} render(); });
-["#q","#frei","#abend","#merk","#ort","#stil"].forEach(s => $(s).addEventListener(s==="#ort"||s==="#stil"?"change":"input", render));
+["#q","#frei","#abend","#merk","#ort"].forEach(s => $(s).addEventListener(s==="#ort"?"change":"input", render));
+
+// ---- Zugangslink (nur in der passwortgeschützten Fassung): Link mit dem gehashten Schlüssel, öffnet die Seite ohne Eingabe
+(() => {
+  let key = (location.hash.match(/staticrypt_pwd=([^&]*)/) || [])[1];
+  try { key = key || localStorage.getItem("staticrypt_passphrase"); } catch (_) {}
+  if (!key) return;
+  const url = location.origin + location.pathname + "#staticrypt_pwd=" + key + "&remember_me";
+  $("#zugang").hidden = false;
+  $("#zugangBtn").addEventListener("click", async () => {
+    try {
+      if (navigator.share) { await navigator.share({ title: "Kulturtag Braunschweig", url }); return; }
+      await navigator.clipboard.writeText(url); $("#zugangBtn").textContent = "Link kopiert ✓";
+    } catch (err) {
+      if (err && err.name === "AbortError") return;
+      prompt("Link kopieren:", url);
+    }
+  });
+})();
 
 const TRIGGER = "trig_013YmWq6HpJbCbdYfTrzUTwq";
 let dbRef = null, mcpRef = null;
